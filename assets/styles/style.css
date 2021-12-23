@@ -17,7 +17,7 @@ body {
     list-style: none;
     text-decoration: none;
 }
-
+/* header start */
 header nav {
     max-width: 1920px;
     display: flex;
@@ -54,9 +54,6 @@ header nav .header-left .dropdown a .fas {
     font-size: 15px;
     margin-left: 10px;
 }
-
-
-
 
 header nav .header-left .dropdown .dropdown-item {
     position: absolute;
@@ -148,7 +145,6 @@ header nav .header-right-ul .hover-ul {
     position: relative;
 }
 
-
 header nav .dropdown-item-ul {
     width: 300px;
     position: absolute;
@@ -169,7 +165,7 @@ header nav .dropdown-item-ul ul li a {
 header nav .dropdown-item-ul ul li {
     padding: 15px 0;
 }
-
+/* header end */
 
 @media screen and (max-width: 767px) and (min-width: 320px) {}
 
