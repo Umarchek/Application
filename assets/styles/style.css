@@ -18,7 +18,9 @@ body {
     text-decoration: none;
 }
 
+
 /* header start */
+
 header nav {
     max-width: 1920px;
     display: flex;
@@ -35,7 +37,6 @@ header nav .header-left {
     justify-content: space-between;
     align-items: center;
 }
-
 
 header nav .header-left .dropdown {
     position: relative;
@@ -167,14 +168,20 @@ header nav .dropdown-item-ul ul li {
     padding: 15px 0;
 }
 
+
 /* header end */
+
+
 /* section start */
+
 .ibi {
     margin-top: 200px;
 }
 
-.ibi .section-header-text {
+.ibi .section-header-text,
+.ibi .section-adress-text {
     display: flex;
+    justify-content: center;
 }
 
 .ibi .section-header-text .left-text-section {
@@ -191,6 +198,23 @@ header nav .dropdown-item-ul ul li {
 }
 
 .ibi .section-header-text .left-text-section .left-number-section {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D3845;
+}
+
+.ibi .section-header-text .right-text-section .right-mail-section {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #8B95A0;
+    margin-bottom: 30px;
+}
+
+.ibi .section-header-text .right-text-section .right-emmail-section {
     font-style: normal;
     font-weight: 600;
     font-size: 50px;
