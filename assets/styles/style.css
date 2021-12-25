@@ -322,7 +322,7 @@ header nav .dropdown-item-ul ul li {
   font-size: 50px;
   line-height: 130%;
   color: #2d3845;
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .necessary .necessary-info .necessary-buttons,
 .resurs .resurs-info .resurs-buttons {
@@ -331,7 +331,8 @@ margin-bottom: 20px;
   flex-wrap: wrap;
 }
 .necessary .necessary-info .necessary-buttons .necessary-button,
-.resurs .resurs-info .resurs-buttons .resurs-button {
+.resurs .resurs-info .resurs-buttons .resurs-button,
+.budget .budget-info .budget-buttons .budget-button {
   margin-bottom: 20px;
   background: #ffffff;
   border: 2px solid #ebf2f5;
@@ -351,7 +352,8 @@ margin-bottom: 20px;
   background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
   color: white;
 }
-.necessary .necessary-info .necessary-input input {
+.necessary .necessary-info .necessary-input input,
+.resurs .resurs-info .resurs-input input {
   background: #f4f8fa;
   border: 2px solid #f4f8fa;
   font-weight: normal;
@@ -366,8 +368,17 @@ margin-bottom: 20px;
   border-radius: 12px;
   margin-bottom: 100px;
 }
-.necessary .necessary-info .necessary-input input:focus {
+.necessary .necessary-info .necessary-input input:focus,
+.resurs .resurs-info .resurs-input input:focus {
   outline: none;
+}
+
+.budget .budget-info .budget-text {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  margin-bottom: 20px;
+  color: #2d3845;
 }
 @media screen and (max-width: 767px) and (min-width: 320px) {
 }
