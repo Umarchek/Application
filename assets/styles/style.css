@@ -176,11 +176,16 @@ header nav .dropdown-item-ul ul li {
 
 .ibi {
     margin-top: 200px;
+    margin-left: 147px;
 }
 
-.ibi .section-header-text,
+.ibi .section-header-text {
+    display: flex;
+}
+
 .ibi .section-adress-text {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -220,6 +225,37 @@ header nav .dropdown-item-ul ul li {
     font-size: 50px;
     line-height: 130%;
     color: #2D3845;
+}
+
+.ibi .section-adress-text .section-adress-info {
+    margin-top: 100px;
+}
+
+.ibi .section-adress-text .section-adress-info .section-adress-infoo {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #8B95A0;
+}
+
+.ibi .section-adress-text .section-adress-info .section-adress-paragraf {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D3845;
+}
+
+.ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
+    background: #FFFFFF;
+    position: absolute;
+    z-index: 1;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 37px 60px 37px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {}
