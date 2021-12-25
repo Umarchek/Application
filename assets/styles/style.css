@@ -241,11 +241,9 @@ header nav .dropdown-item-ul ul li {
   line-height: 130%;
   color: #2d3845;
 }
-.ibi
-  .section-adress-text
-  .section-big-map{
-      position: relative;
-  }
+.ibi .section-adress-text .section-big-map {
+  position: relative;
+}
 .ibi
   .section-adress-text
   .section-big-map
@@ -271,6 +269,26 @@ header nav .dropdown-item-ul ul li {
   span
   img {
   padding-left: 20px;
+}
+.ibi .application .application-social ul {
+  display: flex;
+  align-items: center;
+}
+.ibi .application .application-social ul li img {
+  margin-right: 10px;
+  background: #f4f8fa;
+  border-radius: 12px;
+  padding: 12px;
+}
+.ibi .application .application-social ul li .application-phone {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-left: 40px;
 }
 @media screen and (max-width: 767px) and (min-width: 320px) {
 }
