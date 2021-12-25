@@ -332,7 +332,8 @@ header nav .dropdown-item-ul ul li {
 }
 .necessary .necessary-info .necessary-buttons .necessary-button,
 .resurs .resurs-info .resurs-buttons .resurs-button,
-.budget .budget-info .budget-buttons .budget-button {
+.budget .budget-info .budget-buttons .budget-button,
+.data .data-info .data-buttons .data-button {
   margin-bottom: 20px;
   background: #ffffff;
   border: 2px solid #ebf2f5;
@@ -369,7 +370,8 @@ header nav .dropdown-item-ul ul li {
   margin-bottom: 100px;
 }
 .necessary .necessary-info .necessary-input input:focus,
-.resurs .resurs-info .resurs-input input:focus {
+.resurs .resurs-info .resurs-input input:focus,
+.contacts .contact-info .contact-inputs input:focus {
   outline: none;
 }
 
@@ -380,6 +382,39 @@ header nav .dropdown-item-ul ul li {
   margin-bottom: 20px;
   color: #2d3845;
 }
+.contacts .contact-info .contact-text {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  color: #2d3845;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.contacts .contact-info .contact-inputs input {
+  display: block;
+  margin-bottom: 30px;
+  width: 1010px;
+  height: 64px;
+  padding-left: 30px;
+  background: #f4f8fa;
+  border: 2px solid #f4f8fa;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.contacts .contact-info .contact-inputs input:last-child {
+  margin-bottom: 100px;
+  padding-bottom: 70px;
+  width: 1010px;
+  height: 140px;
+}
+.data .data-info .data-text {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 130%;
+  margin-bottom: 20px;
+  color: #2d3845;
+}
+
 @media screen and (max-width: 767px) and (min-width: 320px) {
 }
 
