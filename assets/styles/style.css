@@ -241,14 +241,12 @@ header nav .dropdown-item-ul ul li {
   line-height: 130%;
   color: #2d3845;
 }
+
 .ibi .section-adress-text .section-big-map {
   position: relative;
 }
-.ibi
-  .section-adress-text
-  .section-big-map
-  .section-big-maps-button
-  .section-big-maps-buttons {
+
+.ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
   background: #ffffff;
   position: absolute;
   border-radius: 12px;
@@ -261,15 +259,11 @@ header nav .dropdown-item-ul ul li {
   cursor: pointer;
   top: 0;
 }
-.ibi
-  .section-adress-text
-  .section-big-map
-  .section-big-maps-button
-  .section-big-maps-buttons
-  span
-  img {
+
+.ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons span img {
   padding-left: 20px;
 }
+
 .ibi .application .application-info .application-text {
   font-weight: 600;
   font-size: 100px;
@@ -277,6 +271,7 @@ header nav .dropdown-item-ul ul li {
   color: #2d3845;
   margin-top: 230px;
 }
+
 .ibi .application .application-info .application-paragraf {
   font-style: normal;
   font-weight: normal;
@@ -287,16 +282,19 @@ header nav .dropdown-item-ul ul li {
   margin-bottom: 52px;
   color: #2d3845;
 }
+
 .ibi .application .application-social ul {
   display: flex;
   align-items: center;
 }
+
 .ibi .application .application-social ul li img {
   margin-right: 10px;
   background: #f4f8fa;
   border-radius: 12px;
   padding: 12px;
 }
+
 .ibi .application .application-social ul li .application-phone {
   font-style: normal;
   font-weight: 600;
@@ -307,9 +305,11 @@ header nav .dropdown-item-ul ul li {
   -webkit-background-clip: text;
   margin-left: 40px;
 }
+
 .necessary {
   margin-top: 100px;
 }
+
 .necessary .necessary-info .necessary-text {
   font-weight: 600;
   font-size: 50px;
@@ -317,6 +317,7 @@ header nav .dropdown-item-ul ul li {
   color: #2d3845;
   margin-bottom: 30px;
 }
+
 .resurs .resurs-info .resurs-text {
   font-weight: 600;
   font-size: 50px;
@@ -324,12 +325,14 @@ header nav .dropdown-item-ul ul li {
   color: #2d3845;
   margin-bottom: 20px;
 }
+
 .necessary .necessary-info .necessary-buttons,
 .resurs .resurs-info .resurs-buttons {
   display: flex;
   width: 900px;
   flex-wrap: wrap;
 }
+
 .necessary .necessary-info .necessary-buttons .necessary-button,
 .resurs .resurs-info .resurs-buttons .resurs-button,
 .budget .budget-info .budget-buttons .budget-button,
@@ -348,11 +351,13 @@ header nav .dropdown-item-ul ul li {
   margin-right: 20px;
   cursor: pointer;
 }
+
 .necessary .necessary-info .necessary-buttons .necessary-button-active,
 .resurs .resurs-info .resurs-buttons .resurs-button-active {
   background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
   color: white;
 }
+
 .necessary .necessary-info .necessary-input input,
 .resurs .resurs-info .resurs-input input {
   background: #f4f8fa;
@@ -369,6 +374,7 @@ header nav .dropdown-item-ul ul li {
   border-radius: 12px;
   margin-bottom: 100px;
 }
+
 .necessary .necessary-info .necessary-input input:focus,
 .resurs .resurs-info .resurs-input input:focus,
 .contacts .contact-info .contact-inputs input:focus {
@@ -382,6 +388,7 @@ header nav .dropdown-item-ul ul li {
   margin-bottom: 20px;
   color: #2d3845;
 }
+
 .contacts .contact-info .contact-text {
   font-weight: 600;
   font-size: 50px;
@@ -390,6 +397,7 @@ header nav .dropdown-item-ul ul li {
   margin-top: 100px;
   margin-bottom: 20px;
 }
+
 .contacts .contact-info .contact-inputs input {
   display: block;
   margin-bottom: 30px;
@@ -401,12 +409,14 @@ header nav .dropdown-item-ul ul li {
   box-sizing: border-box;
   border-radius: 12px;
 }
+
 .contacts .contact-info .contact-inputs input:last-child {
   margin-bottom: 100px;
   padding-bottom: 70px;
   width: 1010px;
   height: 140px;
 }
+
 .data .data-info .data-text {
   font-weight: 600;
   font-size: 50px;
@@ -414,6 +424,7 @@ header nav .dropdown-item-ul ul li {
   margin-bottom: 20px;
   color: #2d3845;
 }
+
 .data .data-info .data-paragraf {
   font-weight: normal;
   font-size: 18px;
@@ -422,11 +433,13 @@ header nav .dropdown-item-ul ul li {
   margin-bottom: 100px;
   color: #8b95a0;
 }
+
 .send {
   display: flex;
   align-items: center;
   margin-bottom: 200px;
 }
+
 .send .send-buttons .send-button span img {
   margin-left: 20px;
   background: #f4f8fa;
@@ -436,6 +449,7 @@ header nav .dropdown-item-ul ul li {
   padding-right: 12px;
   padding-bottom: 16px;
 }
+
 .send .send-buttons .send-button {
   display: flex;
   align-items: center;
@@ -448,6 +462,7 @@ header nav .dropdown-item-ul ul li {
   -webkit-background-clip: text;
   border: none;
 }
+
 .send p {
   font-size: 12px;
   line-height: 135%;
@@ -488,11 +503,9 @@ footer button p {
   font-weight: 600;
   font-size: 50px;
   line-height: 130%;
-  background: -webkit-linear-gradient(
-    180deg,
-    rgba(27, 85, 141, 1),
-    rgba(55, 155, 173, 1)
-  );
+  background: -webkit-linear-gradient(180deg,
+      rgba(27, 85, 141, 1),
+      rgba(55, 155, 173, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -610,6 +623,7 @@ footer .footerCompany .footerCompanyList {
   display: flex;
   flex-direction: column;
 }
+
 footer {
   padding: 60px 0;
 }
@@ -678,13 +692,59 @@ footer .footerNavbar .footerCompany .footerCompanyList {
 footer .footerNavbar .footerCompany .footerCompanyList a {
   margin-right: 40px;
 }
-@media screen and (max-width: 767px) and (min-width: 320px) {
-}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {}
 
 /* -------------------------loptop---------------------------- */
 
-@media screen and (max-width: 1366px) and (min-width: 990px) {
-}
+@media screen and (max-width: 1366px) and (min-width: 990px) {}
 
 @media screen and (max-width: 989px) and (min-width: 768px) {
+  header nav .header-left .dropdown .dropdown-item .dropdown-item-a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #2D3845;
+  }
+
+  header nav .header-right-ul ul {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header nav .header-right-ul .header-right-bars button {
+    width: 0;
+  }
+
+  .ibi .section-header-text .left-text-section .left-info-section {
+    font-size: 18px;
+    width: 234px;
+  }
+
+  .ibi .section-header-text .left-text-section .left-number-section {
+    font-size: 36px;
+    width: 276px;
+  }
+
+  .ibi .section-header-text .right-text-section .right-mail-section {
+    font-size: 18px;
+  }
+
+  .ibi .section-header-text .right-text-section .right-emmail-section {
+    font-size: 36px;
+    width: 324px;
+  }
+
+  .ibi .section-adress-text .section-adress-info .section-adress-infoo {
+    font-size: 18px;
+  }
+
+  .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
+    font-size: 36px;
+
+  }
 }
