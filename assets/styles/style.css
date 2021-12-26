@@ -425,6 +425,7 @@ header nav .dropdown-item-ul ul li {
 .send {
   display: flex;
   align-items: center;
+  margin-bottom: 200px;
 }
 .send .send-buttons .send-button span img {
   margin-left: 20px;
@@ -630,6 +631,7 @@ footer .footerCard .footerSince {
   justify-content: space-between;
   margin-top: 20px;
   align-items: center;
+  flex-direction: column;
 }
 
 footer .footerCard .footerSince .padding0 {
