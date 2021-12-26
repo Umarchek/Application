@@ -745,6 +745,17 @@ footer .footerNavbar .footerCompany .footerCompanyList a {
 
   .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
     font-size: 36px;
+  }
 
+  .ibi .application .application-info .application-text {
+    font-size: 65px;
+  }
+
+  .ibi .application .application-info .application-paragraf {
+    font-size: 23px;
+  }
+
+  .ibi .application .application-social ul li .application-phone {
+    font-size: 18px;
   }
 }
