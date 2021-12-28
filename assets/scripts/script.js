@@ -1,4 +1,4 @@
-window.addEventListener('load', function (e) {
+window.addEventListener('load', function(e) {
     const resurs_1 = document.querySelector('.resurs_1')
     const resurs_2 = document.querySelector('.resurs_2')
     const resurs_3 = document.querySelector('.resurs_3')
@@ -13,7 +13,7 @@ window.addEventListener('load', function (e) {
     const resurs_input = document.querySelector('.resurs-input')
     const arr = new Array(resurs_1, resurs_2, resurs_3, resurs_4, resurs_5, resurs_6, resurs_7)
     arr.forEach(btn => {
-        btn.addEventListener('click', function () {
+        btn.addEventListener('click', function() {
             arr.forEach((elem) => {
                 elem.classList.remove('button-active')
                 resurs_buttons.style.marginBottom = '0'
@@ -30,9 +30,6 @@ window.addEventListener('load', function (e) {
     });
 
 
-
-
-
     const necessary_1 = document.querySelector('.necessary_1')
     const necessary_2 = document.querySelector('.necessary_2')
     const necessary_3 = document.querySelector('.necessary_3')
@@ -47,7 +44,7 @@ window.addEventListener('load', function (e) {
 
     const arrnecessary = new Array(necessary_1, necessary_2, necessary_3, necessary_4, necessary_5, necessary_6, necessary_7)
     arrnecessary.forEach(btnnecessary => {
-        btnnecessary.addEventListener('click', function () {
+        btnnecessary.addEventListener('click', function() {
             arrnecessary.forEach((elemnecessary) => {
                 elemnecessary.classList.remove('button-active')
                 necessary_buttons.style.marginBottom = '0'
@@ -74,9 +71,9 @@ window.addEventListener('load', function (e) {
     const data_2 = document.querySelector('.data_2')
     const data_3 = document.querySelector('.data_3')
 
-    const ar = new Array(budget_1, budget_2,budget_3,budget_4,budget_5,data_1,data_2,data_3)
+    const ar = new Array(budget_1, budget_2, budget_3, budget_4, budget_5, data_1, data_2, data_3)
     ar.forEach(ars => {
-        ars.addEventListener('click', function () {
+        ars.addEventListener('click', function() {
             ar.forEach((sad) => {
                 sad.classList.remove('button-active')
             })
@@ -84,4 +81,3 @@ window.addEventListener('load', function (e) {
         })
     });
 });
-
