@@ -16,7 +16,7 @@ window.addEventListener('load', function (e) {
         btn.addEventListener('click', function () {
             arr.forEach((elem) => {
                 elem.classList.remove('button-active')
-                resurs_buttons.style.marginBottom = '50px'
+                resurs_buttons.style.marginBottom = '0'
             })
             this.classList.add('button-active')
             if (drugoe.classList.contains("button-active")) {
@@ -24,7 +24,41 @@ window.addEventListener('load', function (e) {
                 resurs_buttons.style.marginBottom = '0px'
             } else {
                 resurs_input.style.display = 'none'
-                resurs_buttons.style.marginBottom = '150px'
+                resurs_buttons.style.marginBottom = '0'
+            }
+        })
+    });
+
+
+
+
+
+    const necessary_1 = document.querySelector('.necessary_1')
+    const necessary_2 = document.querySelector('.necessary_2')
+    const necessary_3 = document.querySelector('.necessary_3')
+    const necessary_4 = document.querySelector('.necessary_4')
+    const necessary_5 = document.querySelector('.necessary_5')
+    const necessary_6 = document.querySelector('.necessary_6')
+    const necessary_7 = document.querySelector('.necessary_7')
+    const drugoenecessary = document.querySelector('#drugoenecessary')
+    const necessary_buttons = document.querySelector('.necessary-buttons')
+
+    const necessary_input = document.querySelector('.necessary-input')
+
+    const arrnecessary = new Array(necessary_1, necessary_2, necessary_3, necessary_4, necessary_5, necessary_6, necessary_7)
+    arrnecessary.forEach(btnnecessary => {
+        btnnecessary.addEventListener('click', function () {
+            arrnecessary.forEach((elemnecessary) => {
+                elemnecessary.classList.remove('button-active')
+                necessary_buttons.style.marginBottom = '0'
+            })
+            this.classList.add('button-active')
+            if (drugoenecessary.classList.contains("button-active")) {
+                necessary_input.style.display = 'block'
+                necessary_buttons.style.marginBottom = '0px'
+            } else {
+                necessary_input.style.display = 'none'
+                necessary_buttons.style.marginBottom = '0'
             }
         })
     });
