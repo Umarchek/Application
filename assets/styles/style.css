@@ -171,8 +171,8 @@ header nav .dropdown-item-ul ul li {
 
 /* section start */
 .button-active {
-    background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
-    color: white;
+    background: linear-gradient(270deg, #1b558d 0%, #379bad 100%) !important;
+    color: white !important;
 }
 
 .ibi {
