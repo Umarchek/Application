@@ -63,5 +63,25 @@ window.addEventListener('load', function (e) {
         })
     });
 
+
+    const data_buttons = document.querySelectorAll('.data-button')
+    const budget_1 = document.querySelector('.budget_1')
+    const budget_2 = document.querySelector('.budget_2')
+    const budget_3 = document.querySelector('.budget_3')
+    const budget_4 = document.querySelector('.budget_4')
+    const budget_5 = document.querySelector('.budget_5')
+    const data_1 = document.querySelector('.data_1')
+    const data_2 = document.querySelector('.data_2')
+    const data_3 = document.querySelector('.data_3')
+
+    const ar = new Array(budget_1, budget_2,budget_3,budget_4,budget_5,data_1,data_2,data_3)
+    ar.forEach(ars => {
+        ars.addEventListener('click', function () {
+            ar.forEach((sad) => {
+                sad.classList.remove('button-active')
+            })
+            this.classList.add('button-active')
+        })
+    });
 });
 
