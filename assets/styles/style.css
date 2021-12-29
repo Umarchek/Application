@@ -539,3 +539,33 @@ header nav .dropdown-item-ul ul li {
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {}
 }
+.map {
+    height: 200px !important;
+}
+
+.ChangedMap {
+    height: 600px !important;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.section-big-maps-logo{
+    background: transparent;
+    position: absolute;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    width: 295px;
+    height: 84px;
+    border: none;
+    cursor: pointer;
+    top: 35%;
+    left: 35%;
+}
