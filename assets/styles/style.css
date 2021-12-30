@@ -476,7 +476,11 @@ header nav .dropdown-item-ul ul li {
     margin-left: 40px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .col-md-none {
+        display: none !important;
+    }
+}
 
 
 /* -------------------------loptop---------------------------- */
@@ -484,6 +488,9 @@ header nav .dropdown-item-ul ul li {
 @media screen and (max-width: 1366px) and (min-width: 990px) {}
 
 @media screen and (max-width: 989px) and (min-width: 768px) {
+    .ibi {
+        margin-left: 200px !important;
+    }
     .ibi .section-header-text .left-text-section {
         margin-right: 204px;
     }
@@ -539,6 +546,7 @@ header nav .dropdown-item-ul ul li {
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {}
 }
+
 .map {
     height: 200px !important;
 }
@@ -555,7 +563,7 @@ header nav .dropdown-item-ul ul li {
     display: block !important;
 }
 
-.section-big-maps-logo{
+.section-big-maps-logo {
     background: transparent;
     position: absolute;
     border-radius: 12px;
