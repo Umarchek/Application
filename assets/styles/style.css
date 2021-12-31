@@ -528,6 +528,20 @@ header nav .dropdown-item-ul ul li {
         width: 244px;
         font-size: 30px;
     }
+    .necessary .necessary-info .necessary-buttons .necessary-button,
+    .resurs .resurs-info .resurs-buttons .resurs-button,
+    .budget .budget-info .budget-buttons .budget-button,
+    .data .data-info .data-buttons .data-button {
+        font-size: 16px;
+    }
+    .necessary .necessary-info .necessary-buttons,
+    .resurs .resurs-info .resurs-buttons {
+        width: 700px;
+    }
+    .necessary .necessary-info .necessary-input input,
+    .resurs .resurs-info .resurs-input input {
+        width: 750px;
+    }
 }
 
 
