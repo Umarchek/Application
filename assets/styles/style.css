@@ -785,4 +785,63 @@ header nav .dropdown-item-ul ul li {
     .resurs .resurs-info .resurs-buttons {
         width: 4000px;
     }
+    .necessary .necessary-info .necessary-input input,
+    .resurs .resurs-info .resurs-input input {
+        width: 290px;
+        font-size: 16px;
+    }
+    .resurs .resurs-info .resurs-text {
+        font-size: 24px;
+        width: 216px;
+    }
+    .necessary .necessary-info .necessary-input input,
+    .resurs .resurs-info .resurs-input input {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    .budget .budget-info .budget-text {
+        font-size: 24px;
+        width: 260px;
+    }
+    .budget .budget-info .budget-buttons {
+        display: flex;
+    }
+    .budget .budget-info .budget-buttons .budget-button {
+        width: 112px;
+        font-size: 16px;
+    }
+    .budget .budget-info {
+        width: 2000px;
+    }
+    .contacts .contact-info .contact-text {
+        margin-top: 60px;
+        width: 110px;
+        font-size: 24px;
+    }
+    .contacts .contact-info .contact-inputs input {
+        width: 290px;
+    }
+    .contacts .contact-info .contact-inputs input:last-child {
+        width: 290px;
+        margin-bottom: 60px;
+    }
+    .data .data-info .data-text {
+        width: 290px;
+        font-size: 24px;
+    }
+    .data .data-info .data-buttons {
+        display: flex;
+        width: 2000px;
+    }
+    .data .data-info .data-paragraf {
+        font-size: 16px;
+        width: 290px;
+    }
+    .send {
+        display: block;
+    }
+    .send p {
+        width: 290px;
+        margin-left: 0;
+    }
 }
