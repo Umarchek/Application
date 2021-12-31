@@ -209,6 +209,7 @@ header nav .dropdown-item-ul ul li {
     font-size: 50px;
     line-height: 130%;
     color: #2d3845;
+    width: 383px;
 }
 
 .ibi .section-header-text .right-text-section .right-mail-section {
@@ -226,6 +227,7 @@ header nav .dropdown-item-ul ul li {
     font-size: 50px;
     line-height: 130%;
     color: #2d3845;
+    width: 450px;
 }
 
 .ibi .section-adress-text .section-adress-info {
@@ -567,15 +569,42 @@ header nav .dropdown-item-ul ul li {
     .contacts .contact-info .contact-inputs input:last-child {
         width: 710px;
     }
+    .data .data-info .data-text {
+        width: 525px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .data .data-info .data-buttons {
+        width: 700px;
+    }
+    .data .data-info .data-paragraf {
+        width: 710px;
+        font-size: 16px;
+    }
+    .data .data-info .data-paragraf {
+        margin-bottom: 60px;
+    }
+    .ibi .send {
+        width: 700px;
+    }
+}
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    header nav .header-center .header-number h4 {
+        width: 271px;
+        padding-top: 20px;
+        margin-left: 854px;
+    }
 }
 
 
 /* -------------------------loptop---------------------------- */
-
-@media screen and (max-width: 1366px) and (min-width: 990px) {}
-
-
-/* end */
 
 @media screen and (max-width: 989px) and (min-width: 768px) {
     .ibi {
@@ -670,4 +699,90 @@ header nav .dropdown-item-ul ul li {
     cursor: pointer;
     top: 35%;
     left: 35%;
+}
+
+@media screen and (max-width: 319px) {
+    .col-xs-none {
+        display: none !important;
+    }
+    .ibi .section-header-text {
+        display: block;
+    }
+    .ibi .section-header-text .left-text-section .left-info-section {
+        width: 208px;
+        font-size: 16px;
+    }
+    .ibi .section-header-text .left-text-section .left-info-section {
+        margin-bottom: 10px;
+    }
+    .ibi .section-header-text .left-text-section .left-number-section {
+        font-size: 24px;
+    }
+    .ibi .section-header-text .right-text-section .right-mail-section {
+        margin-top: 20px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .ibi .section-header-text .right-text-section .right-emmail-section {
+        font-size: 24px;
+        width: 216px;
+    }
+    .ibi .section-adress-text .section-adress-info {
+        margin-top: 20px;
+    }
+    .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
+        width: 290px;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
+        display: none;
+    }
+    .section-big-maps-logo {
+        display: block !important;
+    }
+    .map {
+        height: 290px !important;
+        width: 250px !important;
+    }
+    .ibi .application .application-info .application-text {
+        width: 290px;
+        font-size: 36px;
+    }
+    .ibi .application .application-info .application-paragraf {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 290px;
+        font-size: 18px;
+    }
+    .ibi .application .application-social ul {
+        width: 212px;
+        flex-wrap: wrap;
+    }
+    .ibi .application .application-social ul li .application-phone {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 16px;
+        width: 123px;
+    }
+    .necessary {
+        margin-top: 60px;
+    }
+    .necessary .necessary-info .necessary-text {
+        width: 195px;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .necessary .necessary-info .necessary-buttons .necessary-button,
+    .resurs .resurs-info .resurs-buttons .resurs-button,
+    .budget .budget-info .budget-buttons .budget-button,
+    .data .data-info .data-buttons .data-button {
+        padding: 14px;
+        font-size: 16px;
+        width: 202px;
+    }
+    .necessary .necessary-info .necessary-buttons,
+    .resurs .resurs-info .resurs-buttons {
+        width: 4000px;
+    }
 }
