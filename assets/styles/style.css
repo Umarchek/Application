@@ -509,6 +509,25 @@ header nav .dropdown-item-ul ul li {
         font-size: 30px;
         width: 414px;
     }
+    .ibi .application .application-info .application-text {
+        margin-top: 100px;
+        width: 710px;
+        font-size: 54px;
+    }
+    .ibi .application .application-info .application-paragraf {
+        font-size: 20px;
+        width: 710px;
+    }
+    .ibi .application .application-social ul li .application-phone {
+        width: 155px;
+    }
+    .necessary {
+        margin-top: 68px;
+    }
+    .necessary .necessary-info .necessary-text {
+        width: 244px;
+        font-size: 30px;
+    }
 }
 
 
