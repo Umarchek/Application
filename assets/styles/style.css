@@ -542,6 +542,31 @@ header nav .dropdown-item-ul ul li {
     .resurs .resurs-info .resurs-input input {
         width: 750px;
     }
+    .resurs .resurs-info .resurs-text {
+        width: 270px;
+        font-size: 30px;
+    }
+    .necessary .necessary-info .necessary-input input,
+    .resurs .resurs-info .resurs-input input {
+        margin-bottom: 60px;
+    }
+    .budget .budget-info .budget-text {
+        width: 325px;
+        font-size: 30px;
+    }
+    .budget .budget-info .budget-buttons {
+        width: 720px;
+    }
+    .contacts .contact-info .contact-text {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .contacts .contact-info .contact-inputs input {
+        width: 710px;
+    }
+    .contacts .contact-info .contact-inputs input:last-child {
+        width: 710px;
+    }
 }
 
 
