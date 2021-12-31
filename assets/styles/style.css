@@ -480,12 +480,21 @@ header nav .dropdown-item-ul ul li {
     .col-md-none {
         display: none !important;
     }
+    header nav .header-center .header-number h4 {
+        width: 200px;
+        padding-top: 20px;
+        margin-left: 1200px;
+    }
+    .ibi .section-header-text .left-text-section .left-info-section {}
 }
 
 
 /* -------------------------loptop---------------------------- */
 
 @media screen and (max-width: 1366px) and (min-width: 990px) {}
+
+
+/* end */
 
 @media screen and (max-width: 989px) and (min-width: 768px) {
     .ibi {
@@ -505,6 +514,7 @@ header nav .dropdown-item-ul ul li {
     }
     header nav .header-right-ul ul {
         display: none;
+        padding-top: 20px;
     }
     header {
         display: flex;
@@ -546,6 +556,9 @@ header nav .dropdown-item-ul ul li {
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {}
 }
+
+
+/* end */
 
 .map {
     height: 200px !important;
