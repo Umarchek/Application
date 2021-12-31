@@ -485,7 +485,22 @@ header nav .dropdown-item-ul ul li {
         padding-top: 20px;
         margin-left: 1200px;
     }
-    .ibi .section-header-text .left-text-section .left-info-section {}
+    .ibi .section-header-text .left-text-section .left-info-section {
+        font-size: 18px;
+        width: 234px;
+    }
+    .ibi .section-header-text .left-text-section .left-number-section {
+        font-size: 30px;
+        width: 230px;
+    }
+    .ibi .section-header-text .right-text-section .right-mail-section {
+        font-size: 18px;
+        width: 53px;
+    }
+    .ibi .section-header-text .right-text-section .right-emmail-section {
+        width: 270px;
+        font-size: 30px;
+    }
 }
 
 
