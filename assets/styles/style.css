@@ -501,6 +501,14 @@ header nav .dropdown-item-ul ul li {
         width: 270px;
         font-size: 30px;
     }
+    .ibi .section-adress-text .section-adress-info .section-adress-infoo {
+        width: 54px;
+        font-size: 18px;
+    }
+    .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
+        font-size: 30px;
+        width: 414px;
+    }
 }
 
 
