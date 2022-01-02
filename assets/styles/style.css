@@ -17,21 +17,19 @@
 
 /* header start */
 
-
-
 header {
     max-width: 1920px;
     position: relative;
     background-color: #fff;
     margin: auto;
     height: 3vh;
-  }
-  
-  .headerNav {
+}
+
+.headerNav {
     position: absolute;
-  }
-  
-  header nav {
+}
+
+header nav {
     max-width: 1920px;
     width: 100%;
     display: flex;
@@ -42,20 +40,20 @@ header {
     margin: auto;
     position: relative;
     z-index: 5;
-  }
-  
-  header nav .header-left {
+}
+
+header nav .header-left {
     width: 360px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  header nav .header-left .dropdown {
+}
+
+header nav .header-left .dropdown {
     position: relative;
-  }
-  
-  header nav .header-left .dropdown a {
+}
+
+header nav .header-left .dropdown a {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -63,14 +61,14 @@ header {
     color: #000000;
     display: flex;
     align-items: center;
-  }
-  
-  header nav .header-left .dropdown a .fas {
+}
+
+header nav .header-left .dropdown a .fas {
     font-size: 15px;
     margin-left: 10px;
-  }
-  
-  header nav .header-left .dropdown .dropdown-item {
+}
+
+header nav .header-left .dropdown .dropdown-item {
     box-sizing: content-box;
     position: absolute;
     width: 200px;
@@ -80,39 +78,39 @@ header {
     padding: 60px 30px 40px 60px;
     border-radius: 12px;
     display: none;
-  }
-  
-  header nav .header-left .dropdown .dropdown-item .dropdown-item-a {
+}
+
+header nav .header-left .dropdown .dropdown-item .dropdown-item-a {
     padding: 15px 0;
-  }
-  
-  header nav .header-left .dropdown .dropdown-item .dropdown-item-a-first {
+}
+
+header nav .header-left .dropdown .dropdown-item .dropdown-item-a-first {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  header nav .header-left .dropdown .dropdown-item .dropdown-item-a-first {
+}
+
+header nav .header-left .dropdown .dropdown-item .dropdown-item-a-first {
     padding-bottom: 15px;
-  }
-  
-  header nav .header-center {
+}
+
+header nav .header-center {
     width: 497px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-  }
-  
-  header nav .header-center .header-number h4 {
+}
+
+header nav .header-center .header-number h4 {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
     color: #379bad;
-  }
-  
-  header nav .header-center .header-add-btn button {
+}
+
+header nav .header-center .header-add-btn button {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -120,39 +118,39 @@ header {
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
-  }
-  
-  header nav .header-center .header-add-btn button i {
+}
+
+header nav .header-center .header-add-btn button i {
     margin-left: 20px;
-  }
-  
-  header nav .header-right-ul {
+}
+
+header nav .header-right-ul {
     width: 600px;
-  }
-  
-  header nav .header-right-ul ul {
+}
+
+header nav .header-right-ul ul {
     display: flex;
-  }
-  
-  header nav .header-right-ul ul li {
+}
+
+header nav .header-right-ul ul li {
     padding: 0 30px;
-  }
-  
-  header nav .header-right-ul ul li a {
+}
+
+header nav .header-right-ul ul li a {
     font-weight: 600;
     font-size: 20px;
     line-height: 150%;
     color: #8b95a0;
     transition: all 0.3s;
-  }
-  
-  header nav .dropdown-item-ul ul li a:hover {
+}
+
+header nav .dropdown-item-ul ul li a:hover {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  
-  header nav .header-right-ul .header-right-bars button {
+}
+
+header nav .header-right-ul .header-right-bars button {
     position: fixed;
     top: 45px;
     right: 45px;
@@ -163,13 +161,13 @@ header {
     background: #ffffff;
     border-radius: 12px;
     z-index: 20;
-  }
-  
-  header nav .header-right-ul .hover-ul {
+}
+
+header nav .header-right-ul .hover-ul {
     position: relative;
-  }
-  
-  header nav .dropdown-item-ul {
+}
+
+header nav .dropdown-item-ul {
     width: 400px;
     position: absolute;
     top: -75px;
@@ -181,21 +179,21 @@ header {
     box-shadow: 0px 0px 1px 0px rgb(150, 150, 150);
     opacity: 0;
     transition: opacity 0.5s;
-  }
-  
-  header nav .dropdown-item-ul ul {
+}
+
+header nav .dropdown-item-ul ul {
     display: block;
-  }
-  
-  header nav .dropdown-item-ul ul li a {
+}
+
+header nav .dropdown-item-ul ul li a {
     padding: 15px 0;
-  }
-  
-  header nav .dropdown-item-ul ul li {
+}
+
+header nav .dropdown-item-ul ul li {
     padding: 15px 0;
-  }
-  
-  header .header-top {
+}
+
+header .header-top {
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -204,9 +202,9 @@ header {
     background-color: #0f0e10;
     transition: 1s;
     z-index: 20;
-  }
-  
-  header .header-top .exit {
+}
+
+header .header-top .exit {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -215,82 +213,82 @@ header {
     box-sizing: border-box;
     border-radius: 12px;
     cursor: pointer;
-  }
-  
-  header .header-top .header-top-left {
+}
+
+header .header-top .header-top-left {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 42px 50px;
-  }
-  
-  header .header-top .header-top-left .exit i {
+}
+
+header .header-top .header-top-left .exit i {
     font-size: 20px;
     color: white;
-  }
-  
-  header .header-top .header-top-center-top-ul {
+}
+
+header .header-top .header-top-center-top-ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     width: 1300px;
     margin: auto;
-  }
-  
-  header .header-top .header-top-center-top-ul li {
+}
+
+header .header-top .header-top-center-top-ul li {
     padding-right: 70px;
     padding-top: 105px;
-  }
-  
-  header .header-top .header-top-center-top-ul li a {
+}
+
+header .header-top .header-top-center-top-ul li a {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: 600;
     font-size: 80px;
     line-height: 120%;
     color: #ffffff;
-  }
-  
-  header .header-top .header-top-center-top-ul li a:hover {
+}
+
+header .header-top .header-top-center-top-ul li a:hover {
     color: #8b95a0;
     transition: 0.3s;
-  }
-  
-  header .header-top .header-top-center-bottom-ul {
+}
+
+header .header-top .header-top-center-bottom-ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     width: 1300px;
     margin: auto;
     padding-top: 40px;
-  }
-  
-  header .header-top .header-top-center-bottom-ul li {
+}
+
+header .header-top .header-top-center-bottom-ul li {
     padding-right: 40px;
-  }
-  
-  header .header-top .header-top-center-bottom-ul li a {
+}
+
+header .header-top .header-top-center-bottom-ul li a {
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 150%;
     color: #ffffff;
-  }
-  
-  header .header-top .header-top-center-bottom-ul li a:hover {
+}
+
+header .header-top .header-top-center-bottom-ul li a:hover {
     color: #8b95a0;
     transition: 0.3s;
-  }
-  
-  header .header-top .header-top-bottom .header-add-btn {
+}
+
+header .header-top .header-top-bottom .header-add-btn {
     display: flex;
     align-items: center;
     width: auto;
     display: none;
-  }
-  
-  header .header-top .header-top-bottom .header-add-btn button {
+}
+
+header .header-top .header-top-bottom .header-add-btn button {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -302,57 +300,57 @@ header {
     line-height: 150%;
     margin-right: 20px;
     cursor: pointer;
-  }
-  
-  header .header-top .header-top-bottom .header-add-btn span .fas {
+}
+
+header .header-top .header-top-bottom .header-add-btn span .fas {
     padding: 15px;
     border-radius: 12px;
     color: white !important;
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     cursor: pointer;
-  }
-  
-  header .header-top .header-top-bottom .connections {
+}
+
+header .header-top .header-top-bottom .connections {
     display: flex;
     align-items: center;
     padding-top: 60px;
     flex-wrap: wrap;
     display: none;
-  }
-  
-  header .header-top .header-top-bottom .connections p {
+}
+
+header .header-top .header-top-bottom .connections p {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 150%;
     color: #8b95a0;
     padding-right: 10px;
-  }
-  
-  header .header-top .header-top-bottom .connections ul {
+}
+
+header .header-top .header-top-bottom .connections ul {
     display: flex;
     align-items: center;
-  }
-  
-  header .header-top .header-top-bottom .connections ul li {
+}
+
+header .header-top .header-top-bottom .connections ul li {
     padding: 0 10px;
-  }
-  
-  header .header-top .header-top-bottom .connections ul li a {
+}
+
+header .header-top .header-top-bottom .connections ul li a {
     color: #8b95a0;
     padding: 12px 14px;
     background: #2d3845;
     border-radius: 12px;
-  }
-  
-  header .header-top .header-top-bottom .connections ul li a:hover {
+}
+
+header .header-top .header-top-bottom .connections ul li a:hover {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     border-radius: 12px;
     color: white;
     transition: 0.3s;
-  }
-  
-  header .header .header-bg {
+}
+
+header .header .header-bg {
     position: absolute;
     top: 30%;
     left: 15%;
@@ -362,25 +360,25 @@ header {
     width: 700px;
     height: 700px;
     z-index: 1;
-  }
-  
-  header .header .header-title {
+}
+
+header .header .header-title {
     max-width: 1250px;
     margin: auto;
     padding-top: 305px;
     position: relative;
     z-index: 4;
-  }
-  
-  header .header .header-title h3 {
+}
+
+header .header .header-title h3 {
     font-style: normal;
     font-weight: 600;
     font-size: 102px;
     line-height: 120%;
     color: #2d3845;
-  }
-  
-  header .header .header-title h2 {
+}
+
+header .header .header-title h2 {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -388,7 +386,9 @@ header {
     font-weight: 600;
     font-size: 102px;
     line-height: 120%;
-  }
+}
+
+
 /* header end */
 
 
@@ -702,202 +702,6 @@ header {
     margin-left: 40px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    .col-md-none {
-        display: none !important;
-    }
-    header nav .header-center .header-number h4 {
-        width: 200px;
-        padding-top: 20px;
-        margin-left: 1200px;
-    }
-    .ibi .section-header-text .left-text-section .left-info-section {
-        font-size: 18px;
-        width: 234px;
-    }
-    .ibi .section-header-text .left-text-section .left-number-section {
-        font-size: 30px;
-        width: 230px;
-    }
-    .ibi .section-header-text .right-text-section .right-mail-section {
-        font-size: 18px;
-        width: 53px;
-    }
-    .ibi .section-header-text .right-text-section .right-emmail-section {
-        width: 270px;
-        font-size: 30px;
-    }
-    .ibi .section-adress-text .section-adress-info .section-adress-infoo {
-        width: 54px;
-        font-size: 18px;
-    }
-    .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
-        font-size: 30px;
-        width: 414px;
-    }
-    .ibi .application .application-info .application-text {
-        margin-top: 100px;
-        width: 710px;
-        font-size: 54px;
-    }
-    .ibi .application .application-info .application-paragraf {
-        font-size: 20px;
-        width: 710px;
-    }
-    .ibi .application .application-social ul li .application-phone {
-        width: 155px;
-    }
-    .necessary {
-        margin-top: 68px;
-    }
-    .necessary .necessary-info .necessary-text {
-        width: 244px;
-        font-size: 30px;
-    }
-    .necessary .necessary-info .necessary-buttons .necessary-button,
-    .resurs .resurs-info .resurs-buttons .resurs-button,
-    .budget .budget-info .budget-buttons .budget-button,
-    .data .data-info .data-buttons .data-button {
-        font-size: 16px;
-    }
-    .necessary .necessary-info .necessary-buttons,
-    .resurs .resurs-info .resurs-buttons {
-        width: 700px;
-    }
-    .necessary .necessary-info .necessary-input input,
-    .resurs .resurs-info .resurs-input input {
-        width: 750px;
-    }
-    .resurs .resurs-info .resurs-text {
-        width: 270px;
-        font-size: 30px;
-    }
-    .necessary .necessary-info .necessary-input input,
-    .resurs .resurs-info .resurs-input input {
-        margin-bottom: 60px;
-    }
-    .budget .budget-info .budget-text {
-        width: 325px;
-        font-size: 30px;
-    }
-    .budget .budget-info .budget-buttons {
-        width: 720px;
-    }
-    .contacts .contact-info .contact-text {
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-    .contacts .contact-info .contact-inputs input {
-        width: 710px;
-    }
-    .contacts .contact-info .contact-inputs input:last-child {
-        width: 710px;
-    }
-    .data .data-info .data-text {
-        width: 525px;
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    .data .data-info .data-buttons {
-        width: 700px;
-    }
-    .data .data-info .data-paragraf {
-        width: 710px;
-        font-size: 16px;
-    }
-    .data .data-info .data-paragraf {
-        margin-bottom: 60px;
-    }
-    .ibi .send {
-        width: 700px;
-    }
-}
-
-@media (max-width: 320px) {
-    .container {
-        max-width: 992px;
-    }
-}
-@media (max-width: 1500px) {
-    .ibi {
-        margin-left: 57px;
-    }
-}
-@media screen and (max-width: 767px) and (min-width: 320px) {
-    header nav .header-center .header-number h4 {
-        width: 271px;
-        padding-top: 20px;
-        margin-left: 854px;
-    }
-}
-
-
-/* -------------------------loptop---------------------------- */
-
-@media screen and (max-width: 989px) and (min-width: 768px) {
-    .ibi {
-        margin-left: 200px !important;
-    }
-    .ibi .section-header-text .left-text-section {
-        margin-right: 204px;
-    }
-    header nav .header-left .dropdown .dropdown-item .dropdown-item-a {
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 150%;
-        color: #2D3845;
-    }
-    .ibi {
-        margin-left: 0;
-    }
-    header nav .header-right-ul ul {
-        display: none;
-        padding-top: 20px;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
-    header nav .header-right-ul .header-right-bars button {
-        width: 0;
-    }
-    .ibi .section-header-text .left-text-section .left-info-section {
-        font-size: 18px;
-        width: 234px;
-    }
-    .ibi .section-header-text .left-text-section .left-number-section {
-        font-size: 36px;
-        width: 276px;
-    }
-    .ibi .section-header-text .right-text-section .right-mail-section {
-        font-size: 18px;
-    }
-    .ibi .section-header-text .right-text-section .right-emmail-section {
-        font-size: 36px;
-        width: 324px;
-    }
-    .ibi .section-adress-text .section-adress-info .section-adress-infoo {
-        font-size: 18px;
-    }
-    .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
-        font-size: 36px;
-    }
-    .ibi .application .application-info .application-text {
-        font-size: 65px;
-    }
-    .ibi .application .application-info .application-paragraf {
-        font-size: 23px;
-    }
-    .ibi .application .application-social ul li .application-phone {
-        font-size: 18px;
-    }
-    .necessary .necessary-info .necessary-input input,
-    .resurs .resurs-info .resurs-input input {}
-}
-
-
-/* end */
-
 .map {
     height: 200px !important;
 }
@@ -927,149 +731,4 @@ header {
     cursor: pointer;
     top: 35%;
     left: 35%;
-}
-
-@media screen and (max-width: 319px) {
-    .col-xs-none {
-        display: none !important;
-    }
-    .ibi .section-header-text {
-        display: block;
-    }
-    .ibi .section-header-text .left-text-section .left-info-section {
-        width: 208px;
-        font-size: 16px;
-    }
-    .ibi .section-header-text .left-text-section .left-info-section {
-        margin-bottom: 10px;
-    }
-    .ibi .section-header-text .left-text-section .left-number-section {
-        font-size: 24px;
-    }
-    .ibi .section-header-text .right-text-section .right-mail-section {
-        margin-top: 20px;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    .ibi .section-header-text .right-text-section .right-emmail-section {
-        font-size: 24px;
-        width: 216px;
-    }
-    .ibi .section-adress-text .section-adress-info {
-        margin-top: 20px;
-    }
-    .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
-        width: 290px;
-        font-size: 24px;
-        margin-bottom: 40px;
-    }
-    .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
-        display: none;
-    }
-    .section-big-maps-logo {
-        display: block !important;
-    }
-    .map {
-        height: 290px !important;
-        width: 250px !important;
-    }
-    .ibi .application .application-info .application-text {
-        width: 290px;
-        font-size: 36px;
-    }
-    .ibi .application .application-info .application-paragraf {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        width: 290px;
-        font-size: 18px;
-    }
-    .ibi .application .application-social ul {
-        width: 212px;
-        flex-wrap: wrap;
-    }
-    .ibi .application .application-social ul li .application-phone {
-        margin-left: 0;
-        margin-top: 20px;
-        font-size: 16px;
-        width: 123px;
-    }
-    .necessary {
-        margin-top: 60px;
-    }
-    .necessary .necessary-info .necessary-text {
-        width: 195px;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    .necessary .necessary-info .necessary-buttons .necessary-button,
-    .resurs .resurs-info .resurs-buttons .resurs-button,
-    .budget .budget-info .budget-buttons .budget-button,
-    .data .data-info .data-buttons .data-button {
-        padding: 14px;
-        font-size: 16px;
-        width: 202px;
-    }
-    .necessary .necessary-info .necessary-buttons,
-    .resurs .resurs-info .resurs-buttons {
-        width: 4000px;
-    }
-    .necessary .necessary-info .necessary-input input,
-    .resurs .resurs-info .resurs-input input {
-        width: 290px;
-        font-size: 16px;
-    }
-    .resurs .resurs-info .resurs-text {
-        font-size: 24px;
-        width: 216px;
-    }
-    .necessary .necessary-info .necessary-input input,
-    .resurs .resurs-info .resurs-input input {
-        margin-top: 20px;
-        margin-bottom: 60px;
-    }
-    .budget .budget-info .budget-text {
-        font-size: 24px;
-        width: 260px;
-    }
-    .budget .budget-info .budget-buttons {
-        display: flex;
-    }
-    .budget .budget-info .budget-buttons .budget-button {
-        width: 112px;
-        font-size: 16px;
-    }
-    .budget .budget-info {
-        width: 2000px;
-    }
-    .contacts .contact-info .contact-text {
-        margin-top: 60px;
-        width: 110px;
-        font-size: 24px;
-    }
-    .contacts .contact-info .contact-inputs input {
-        width: 290px;
-    }
-    .contacts .contact-info .contact-inputs input:last-child {
-        width: 290px;
-        margin-bottom: 60px;
-    }
-    .data .data-info .data-text {
-        width: 290px;
-        font-size: 24px;
-    }
-    .data .data-info .data-buttons {
-        display: flex;
-        width: 2000px;
-    }
-    .data .data-info .data-paragraf {
-        font-size: 16px;
-        width: 290px;
-    }
-    .send {
-        display: block;
-    }
-    .send p {
-        width: 290px;
-        margin-left: 0;
-    }
 }
