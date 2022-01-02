@@ -589,7 +589,7 @@ header nav .dropdown-item-ul ul li {
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
     .container {
         max-width: 992px;
     }
