@@ -34,7 +34,6 @@ window.addEventListener("load", function (e) {
   };
   navMenuToggle();
   //
-
   const resurs_1 = document.querySelector(".resurs_1");
   const resurs_2 = document.querySelector(".resurs_2");
   const resurs_3 = document.querySelector(".resurs_3");
@@ -93,7 +92,7 @@ window.addEventListener("load", function (e) {
         resurs_buttons.style.marginBottom = "0px";
       } else {
         resurs_input.style.display = "none";
-        resurs_buttons.style.marginBottom = "0";
+        resurs_buttons.style.marginBottom = "210px";
       }
     });
   });
@@ -117,10 +116,10 @@ window.addEventListener("load", function (e) {
       this.classList.add("button-active");
       if (drugoenecessary.classList.contains("button-active")) {
         necessary_input.style.display = "block";
-        necessary_buttons.style.marginBottom = "0px";
+        necessary_buttons.style.marginBottom = "0";
       } else {
         necessary_input.style.display = "none";
-        necessary_buttons.style.marginBottom = "0";
+        necessary_buttons.style.marginBottom = "210px";
       }
     });
   });
@@ -163,4 +162,5 @@ window.addEventListener("load", function (e) {
     changeMap.style.display = "block";
     logo.style.display = "none";
   }
+
 });
