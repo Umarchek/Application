@@ -112,6 +112,16 @@
     }
 }
 
-@media screen and (max-width: 767px) and (min-width: 320px) {}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .sm-none{
+        display: none !important;
+    }
+    .container{
+        max-width: none !important;
+    }
+    .ibi{
+        margin-left: 20px !important; 
+    }
+}
 
 @media screen and (max-width: 319px) {}
