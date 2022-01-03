@@ -14,19 +14,19 @@
     }
 
     header .headerNav .header-right-ul .header-none {
-        display: none;
+        display: none !important;
     }
 
     header nav .header-center .header-add-btn button {
-        width: 235px;
-        font-size: 18px;
-        margin-left: 40px;
+        width: 235px !important;
+        font-size: 18px !important;
+        margin-left: 40px !important;
     }
 
     header nav .header-center .header-number h4 {
-        font-size: 18px;
-        width: 154px;
-        margin-left: 84px;
+        font-size: 18px !important;
+        width: 154px !important;
+        margin-left: 84px !important;
     }
 
     header nav .header-left .dropdown {
@@ -34,14 +34,14 @@
     }
 
     .ibi .section-header-text .left-text-section {
-        margin-right: 204px;
+        margin-right: 204px !important;
     }
 
     .ibi .section-header-text .left-text-section .left-info-section,
     .ibi .section-header-text .right-text-section .right-mail-section,
     .ibi .section-adress-text .section-adress-info .section-adress-infoo,
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .ibi .section-header-text .left-text-section .left-number-section,
@@ -51,7 +51,7 @@
     }
 
     .section-big-class {
-        width: 940px;
+        width: 940px !important;
     }
 
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
@@ -62,16 +62,19 @@
     .ibi .application .application-info .application-text {
         margin-top: 200px !important;
         width: 940px !important;
-        font-size: 65px;
+        font-size: 65px !important;
     }
 
     .ibi .application .application-info .application-paragraf {
         margin-bottom: 40px !important;
-        width: 940px;
-        font-size: 23px;
+        width: 940px !important;
+        font-size: 23px !important;
     }
 
-    .necessary .necessary-info .necessary-text, .resurs .resurs-info .resurs-text {
+    .necessary .necessary-info .necessary-text, .resurs .resurs-info .resurs-text,
+    .budget .budget-info .budget-text,
+    .contacts .contact-info .contact-text,
+    .data .data-info .data-text {
         font-size: 36px !important;
         margin-bottom: 20px !important;
     }
@@ -82,6 +85,30 @@
 
     .resurs .resurs-info .resurs-buttons {
         width: 954px !important
+    }
+
+    .contacts .contact-info .contact-inputs input {
+        width: 940px !important;
+        font-size: 18px !important;
+    }
+
+    .data .data-info .data-paragraf {
+        font-size: 18px !important;
+        margin-bottom: 105px !important;
+        width: 940px !important;
+    }
+
+    footer {
+        width: 1180px !important;
+    }
+
+    footer .footerTitle {
+        font-size: 65px !important;
+    }
+
+    footer button p ,
+    footer .footerCard .footerContact .footerPhone{
+        font-size: 36px !important;
     }
 }
 
