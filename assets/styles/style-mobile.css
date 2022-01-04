@@ -202,6 +202,9 @@
 }
 
 @media screen and (max-width: 319px) {
+    .sm-none{
+        display: none !important;
+    }
     .logo img {
         width: 90px;
         height: 44px;
@@ -214,7 +217,7 @@
 
     .ibi {
         margin-top: 72px !important;
-        margin-bottom: 10px;
+        margin-bottom: 10px !important;
     }
 
     .ibi .section-header-text .left-text-section .left-info-section {
