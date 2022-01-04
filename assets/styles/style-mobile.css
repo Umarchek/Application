@@ -202,9 +202,10 @@
 }
 
 @media screen and (max-width: 319px) {
-    .sm-none{
+    .sm-none {
         display: none !important;
     }
+
     .logo img {
         width: 90px;
         height: 44px;
@@ -218,6 +219,8 @@
     .ibi {
         margin-top: 72px !important;
         margin-bottom: 10px !important;
+        margin-left: 15px !important;
+        overflow: hidden;
     }
 
     .ibi .section-header-text .left-text-section .left-info-section {
@@ -297,5 +300,85 @@
         font-size: 18px !important;
         line-height: 160% !important;
         width: 290px !important;
+    }
+
+    .ibi .application .application-social ul {
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .ibi .application .application-social ul li .application-phone {
+        margin-left: 0 !important;
+    }
+
+    .necessary {
+        margin-top: 60px !important;
+    }
+
+    .necessary .necessary-info .necessary-text,
+    .resurs .resurs-info .resurs-text,
+    .budget .budget-info .budget-text,
+    .contacts .contact-info .contact-text,
+    .data .data-info .data-text {
+        font-size: 24px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .data .data-info .data-paragraf {
+        font-size: 16px !important;
+        width: 290px;
+    }
+
+    .necessary .necessary-info .necessary-input input, .resurs .resurs-info .resurs-input input,
+    .contacts .contact-info .contact-inputs input {
+        width: 290px !important;
+    }
+
+    .data .data-info .data-paragraf {
+        width: 290px !important;
+        font-size: 16px !important;
+    }
+
+
+    .necessary .necessary-info .necessary-buttons, .resurs .resurs-info .resurs-buttons {
+        width: auto !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .conatiner {
+        overflow: hidden;
+    }
+
+    .send {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    header nav .header-left {
+        width: 1500px !important;
+    }
+
+    .send p {
+        margin-left: 0 !important;
+        text-align: center !important;
+    }
+
+    .necessary .necessary-info .necessary-buttons .necessary-button, .resurs .resurs-info .resurs-buttons .resurs-button, .budget .budget-info .budget-buttons .budget-button, .data .data-info .data-buttons .data-button {
+        font-size: 16px !important;
     }
 }

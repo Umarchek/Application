@@ -196,14 +196,18 @@
             <div class="necessary">
                 <div class="necessary-info">
                     <h2 class="necessary-text">Мне необходимо</h2>
-                    <div class="necessary-buttons">
-                        <button class="necessary-button necessary_1">Контекстная реклама</button>
-                        <button class="necessary-button necessary_2">Аудит контекстной рекламы</button>
-                        <button class="necessary-button necessary_3">SEO</button>
-                        <button class="necessary-button necessary_4">Аудит SEO</button>
-                        <button class="necessary-button necessary_5">Дизайн сайта</button>
-                        <button class="necessary-button necessary_6">Разработка</button>
-                        <button id="drugoenecessary" class="necessary-button necessary_7 button-active">Другое </button>
+                    <div class="swiper mySwiper">
+                        <div class="necessary-buttons swiper-wrapper">
+                            <button class="necessary-button necessary_1 swiper-slide">Контекстная реклама</button>
+                            <button class="necessary-button necessary_2 swiper-slide">Аудит контекстной рекламы</button>
+                            <button class="necessary-button necessary_3 swiper-slide">SEO</button>
+                            <button class="necessary-button necessary_4 swiper-slide">Аудит SEO</button>
+                            <button class="necessary-button necessary_5 swiper-slide">Дизайн сайта</button>
+                            <button class="necessary-button necessary_6 swiper-slide">Разработка</button>
+                            <button id="drugoenecessary"
+                                class="necessary-button necessary_7 button-active swiper-slide">Другое
+                            </button>
+                        </div>
                     </div>
                     <div class="necessary-input">
                         <input type="text" placeholder="Опишите, что вам необходимо">
@@ -213,15 +217,17 @@
             <div class="resurs get">
                 <div class="resurs-info">
                     <h2 class="resurs-text">Уже есть ресурсы?</h2>
-                    <div class="resurs-buttons">
-                        <button class="resurs-button resurs_1">Нет</button>
-                        <button class="resurs-button resurs_2">Группа Вконтакте</button>
-                        <button class="resurs-button resurs_3">Сайт-каталог</button>
-                        <button class="resurs-button resurs_4">Интернет-магазин</button>
-                        <button class="resurs-button resurs_5">Instagram</button>
-                        <button class="resurs-button resurs_6">Лендинг</button>
-                        <button id="drugoe" class="resurs-button resurs_7 button-active">Другое</button>
+                    <div class="swiper mySwiper">
+                        <div class="resurs-buttons swiper-wrapper">
+                            <button class="resurs-button resurs_1 swiper-slide">Нет</button>
+                            <button class="resurs-button resurs_2 swiper-slide">Группа Вконтакте</button>
+                            <button class="resurs-button resurs_3 swiper-slide">Сайт-каталог</button>
+                            <button class="resurs-button resurs_4 swiper-slide">Интернет-магазин</button>
+                            <button class="resurs-button resurs_5 swiper-slide">Instagram</button>
+                            <button class="resurs-button resurs_6 swiper-slide">Лендинг</button>
+                            <button id="drugoe" class="resurs-button resurs_7 button-active swiper-slide">Другое</button>
 
+                        </div>
                     </div>
                     <div class="resurs-input">
                         <input type="text" placeholder="Ссылки, через пробел">
@@ -275,79 +281,7 @@
         </section>
     </div>
 
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-12">
-                    <h2 class="footerTitle">Нужны заявки?</h2>
-                    <button>
-                        <p>Напишите нам</p>
-                        <span><img src="./assets/images/growth.png" alt="" /></span>
-                    </button>
-                </div>
-            </div>
-            <div class="row footerCard">
-                <div class="col-lg-4 col-6 footerContact">
-                    <a href="tel:8 800 351 45 66" class="footerPhone">8 800 351 45 66</a>
-                    <a href="mailto:info@family-web.ru">info@family-web.ru</a>
-                </div>
-                <div class="col-lg-4 col-6 footerSocial">
-                    <a href="http://www.family-web.ru">Behance</a>
-                    <a href="http://www.family-web.ru">Vkontakte</a>
-                    <a href="http://www.family-web.ru">Facebook</a>
-                </div>
-                <div class="col-lg-4 col-12 footerSince">
-                    <div class="col-lg-12 col-6 padding0">
-                        <p class="Since">© 2006–2021, digital-агентство Family</p>
-                    </div>
-                    <div class="col-lg-12 col-6">
-                        <p>Политика конфиденциальности</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row footerNavbar">
-                <div class="col-lg-8 col-12">
-                    <div class="col-md-6 padding0">
-                        <p>Интернет маркетинг</p>
-                        <a href="#!">Контекстная реклама в Яндекс и Google</a>
-                        <a href="#!">Аудит контекстной рекламы</a>
-                        <a href="#!">Реклама в социальных сетях Facevook и Instagram</a>
-                        <a href="#!">Реклама на Авито (Авитолог)</a>
-                    </div>
-                    <div class="col-md-6 padding0">
-                        <p>Разработка</p>
-                        <a href="#!">Создание Landing Page</a>
-                        <a href="#!">Создание сайтов</a>
-                        <a href="#!">Создание интернет-магазинов</a>
-                        <a href="#!">Создание сайтов на 1С Битрикс</a>
-                    </div>
-                    <div class="col-md-6 footerNavbarMarginTop padding0">
-                        <p>CRM-аналитика</p>
-                        <a href="#!">Внедрение Битрикс 24</a>
-                        <a href="#!">Подключение коллтрекинга</a>
-                        <a href="#!">Создание автоматизированных отчетов Power Bi</a>
-                    </div>
-                    <div class="col-md-6 footerNavbarMarginTop padding0">
-                        <p>Продвижение в поисковых системах</p>
-                        <a href="#!">SEO оптимизация</a>
-                        <a href="#!">Аудит SEO оптимизации</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 footerCompany">
-                    <div>
-                        <p>Компания</p>
-                    </div>
-                    <div class="footerCompanyList">
-                        <a href="#!">Кейсы</a>
-                        <a href="#!">Отзывы</a>
-                        <a href="#!">Клиенты</a>
-                        <a href="#!">Контакты</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
