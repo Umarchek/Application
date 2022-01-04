@@ -398,7 +398,9 @@ header .header .header-title h2 {
     background: linear-gradient(270deg, #1b558d 0%, #379bad 100%) !important;
     color: white !important;
 }
-
+.d-n{
+    display: none !important;
+}
 .ibi {
     margin-top: 200px;
 }
