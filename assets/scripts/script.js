@@ -97,7 +97,7 @@ window.addEventListener("load", function (e) {
     });
   });
   // =============================
-  var swiper = new Swiper(".mySwiper", {});
+  var swiper = new Swiper(".mySwiper", { loop: true });
 
   const arrnecessary = new Array(
     necessary_1,
