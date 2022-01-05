@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -734,4 +734,3 @@ header .header .header-title h2 {
     cursor: pointer;
     top: 35%;
     left: 35%;
-}

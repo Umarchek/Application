@@ -4,12 +4,27 @@
     }
 }
 
-@media screen and (max-width: 990px) and (min-width: 769px) {
-    .ibi {
-        margin-left: 0 !important;
+@media screen and (max-width: 989px) {
+    header nav .header-left .dropdown,
+    header nav .header-center .header-add-btn button {
+        display: none;
+    }
+    header {
+        padding-left: 26px;
     }
     header nav {
-        padding-left: 120px !important;
+        padding-top: 20px;
+        max-width: 768px;
+    }
+    .header-bg {
+        display: none;
+    }
+    header .header .header-title h3,
+    header .header .header-title h2 {
+        font-size: 55px;
+    }
+    .ibi {
+        margin-left: 0 !important;
     }
     header .headerNav .header-right-ul .header-none {
         display: none !important;
@@ -84,19 +99,28 @@
         margin-bottom: 105px !important;
         width: 940px !important;
     }
-    footer {
-        width: 1180px !important;
-    }
-    footer .footerTitle {
-        font-size: 65px !important;
-    }
-    footer button p,
-    footer .footerCard .footerContact .footerPhone {
-        font-size: 36px !important;
-    }
 }
 
-@media screen and (max-width: 768px) and (min-width: 321px) {
+@media screen and (max-width: 767px) {
+    header {
+        max-width: 300px;
+    }
+    header nav .header-center {
+        display: none;
+    }
+    header nav .header-left {
+        width: 115px;
+    }
+    .header-right-bars button {
+        position: unset;
+    }
+    header .header .header-title {
+        padding-top: 95px;
+    }
+    header .header .header-title h3,
+    header .header .header-title h2 {
+        font-size: 37px;
+    }
     .sm-none {
         display: none !important;
     }
