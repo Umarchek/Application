@@ -404,7 +404,9 @@ header .header .header-title h2 {
 }
 
 .ibi {
-    margin-top: 200px;
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 215px;
 }
 
 .ibi .section-header-text {
