@@ -12,6 +12,7 @@
         max-width: 1920px;
         position: relative;
         background-color: #fff;
+        margin: auto;
         height: 3vh;
     }
     
@@ -21,6 +22,7 @@
     
     header nav {
         max-width: 1920px;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -28,7 +30,7 @@
         padding-top: 45px;
         margin: auto;
         position: relative;
-        z-index: 152;
+        z-index: 5;
     }
     
     header nav .header-left {
@@ -109,15 +111,7 @@
         cursor: pointer;
     }
     
-    header nav .header-center .header-add-btn button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-        width: 254px;
-    }
-    
-    header nav .header-center .header-add-btn button svg {
+    header nav .header-center .header-add-btn button i {
         margin-left: 20px;
     }
     
@@ -147,7 +141,7 @@
         -webkit-text-fill-color: transparent;
     }
     
-    .header-right-bars button {
+    header nav .header-right-ul .header-right-bars button {
         position: fixed;
         top: 45px;
         right: 45px;
@@ -198,7 +192,7 @@
         left: 0;
         background-color: #0f0e10;
         transition: 1s;
-        z-index: 1000;
+        z-index: 20;
     }
     
     header .header-top .exit {
