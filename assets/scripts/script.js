@@ -1,32 +1,32 @@
-window.addEventListener("load", function(e) {
+window.addEventListener("load", function (e) {
     const navMenuToggle = () => {
-        $(".dropdown-clicked").click(function(e) {
+        $(".dropdown-clicked").click(function (e) {
             e.preventDefault();
             $("header .dropdown-item").fadeIn();
         });
-        $(".dropdown-item-a-first").click(function(e) {
+        $(".dropdown-item-a-first").click(function (e) {
             e.preventDefault();
             $("header .dropdown-item").fadeOut();
         });
         $(".hover-ul-a")
-            .mouseover(function(e) {
+            .mouseover(function (e) {
                 $("header .dropdown-item-ul").css({
                     display: "block",
                     opacity: 1,
                 });
             })
-            .mouseout(function(e) {
+            .mouseout(function (e) {
                 $("header .dropdown-item-ul").css({
                     display: "none",
                     opacity: 0,
                 });
             });
-        $(".header-right-bars").click(function(e) {
+        $(".header-right-bars").click(function (e) {
             $("header .header-top").css({
                 top: "0",
             });
         });
-        $(".header-top .exit").click(function(e) {
+        $(".header-top .exit").click(function (e) {
             $("header .header-top").css({
                 top: "-130vh",
             });
@@ -81,7 +81,7 @@ window.addEventListener("load", function(e) {
         resurs_7
     );
     arr.forEach((btn) => {
-        btn.addEventListener("click", function() {
+        btn.addEventListener("click", function () {
             arr.forEach((elem) => {
                 elem.classList.remove("button-active");
                 resurs_buttons.style.marginBottom = "0";
@@ -97,7 +97,6 @@ window.addEventListener("load", function(e) {
         });
     });
     // =============================
-    var swiper = new Swiper(".mySwiper", { loop: true });
 
     const arrnecessary = new Array(
         necessary_1,
@@ -109,7 +108,7 @@ window.addEventListener("load", function(e) {
         necessary_7
     );
     arrnecessary.forEach((btnnecessary) => {
-        btnnecessary.addEventListener("click", function() {
+        btnnecessary.addEventListener("click", function () {
             arrnecessary.forEach((elemnecessary) => {
                 elemnecessary.classList.remove("button-active");
                 necessary_buttons.style.marginBottom = "0";
@@ -137,7 +136,7 @@ window.addEventListener("load", function(e) {
         data_3
     );
     ar.forEach((ars) => {
-        ars.addEventListener("click", function() {
+        ars.addEventListener("click", function () {
             ar.forEach((sad) => {
                 sad.classList.remove("button-active");
             });
@@ -145,7 +144,7 @@ window.addEventListener("load", function(e) {
         });
     });
     // =============================
-    changeMap.addEventListener("click", function() {
+    changeMap.addEventListener("click", function () {
         toggle();
     });
 
@@ -156,7 +155,7 @@ window.addEventListener("load", function(e) {
     }
     // =============================
 
-    logo.addEventListener("click", function() {
+    logo.addEventListener("click", function () {
         doggle();
     });
 

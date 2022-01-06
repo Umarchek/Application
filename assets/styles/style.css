@@ -739,3 +739,327 @@
         top: 35%;
         left: 35%;
     }
+
+
+    footer {
+        background: #000;
+        margin-top: 200px;
+        color: #fff;
+        height: 1223px;
+    }
+
+    .footer {
+        width: 1530px !important;
+        margin: auto;
+    }
+
+    .footerTitle {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 100px;
+        line-height: 120%;
+        /* identical to box height, or 120px */
+
+        /* LIght/White */
+
+        color: #ffffff;
+        padding-top: 150px;
+    }
+
+    .FooterCenterBigDiv {
+        display: flex;
+        width: 1530px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footerCenterBottom2 {
+        display: flex;
+    }
+
+    .footerTitle2 {
+        background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .footerTitle2 button {
+        background: #1b558d;
+        border-radius: 12px;
+        border: none;
+        padding: 15px;
+    }
+
+    .footerTitle2 button img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerCenter {
+        display: flex;
+        width: 1297px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .footerCenterTitle {
+        display: flex;
+        flex-direction: column;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 135%;
+        /* or 19px */
+
+        /* LIght/White */
+
+        color: #ffffff;
+    }
+
+    .footerCenterBigTitle {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 130%;
+        /* identical to box height, or 65px */
+
+        /* LIght/White */
+
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerCenterBigTitle a {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        /* Dark/Light Gray */
+
+        color: #8b95a0;
+    }
+
+    .footerCenterSmallTitles {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        /* LIght/White */
+
+        color: #ffffff;
+    }
+
+    .footerCenterTitle span {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        /* Dark/Light Gray */
+
+        color: #8b95a0;
+    }
+
+    .footerCenterBigLinks {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .footerCenterBottom {
+        width: 490px;
+    }
+
+    .footerCenterBottomMargin {
+        margin-left: 30px;
+    }
+
+    .footerCenterBottomTitle {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        /* identical to box height, or 30px */
+
+        /* LIght/White */
+
+        color: #ffffff;
+        margin-top: 160px;
+        margin-bottom: 30px;
+    }
+
+    .footerCenterLinks {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 135%;
+        /* identical to box height, or 19px */
+
+        /* Dark/Light Gray */
+
+        color: #8b95a0;
+        margin-top: 20px;
+    }
+
+    .footerCenterBottomTitleCRM {
+        margin-top: 80px;
+    }
+
+    .MainTitle {
+        font-size: 50px;
+        line-height: 130%;
+        width: 220px;
+        height: 65px;
+        margin-right: 100px;
+    }
+
+    .MainText p {
+        width: 620px;
+        height: 259px;
+        font-size: 23px;
+        line-height: 160%;
+    }
+
+    .PLUS {
+        display: none;
+    }
+
+    .SwiperNone {
+        display: none !important;
+    }
+
+    .FooterCenterBigDivFooter1 {
+        display: none;
+    }
+
+    .wrap {
+        display: none;
+    }
+
+    @media (max-width:767px) {
+
+        footer {
+            padding: 60px 15px;
+            width: 320px;
+            height: 100vh;
+            margin-top: 0;
+        }
+
+        .footer {
+            width: 290px !important;
+        }
+
+        .footerTitle {
+            font-size: 36px;
+            line-height: 120%;
+            width: 269px;
+            margin-bottom: 30px;
+            padding: 0;
+        }
+
+        .footerTitle2 {
+            display: flex;
+            font-size: 24px;
+            line-height: 130%;
+            align-items: center;
+        }
+
+        .footerTitle2 button {
+            margin-left: 20px;
+        }
+
+        .footerCenter {
+            width: 290px;
+            height: 190px;
+        }
+
+        .footerCenterBottom {
+            width: inherit;
+            height: inherit;
+        }
+
+        .footerCenterBigTitle {
+            font-size: 24px;
+            line-height: 130%;
+            width: 350px;
+            height: 55px;
+        }
+
+        .footerCenterTitle {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .footerCenterTitle span {
+            margin: 0;
+        }
+
+        .footerCenterBottom2 {
+            display: none;
+        }
+
+        .FooterCenterBigDiv {
+            display: none;
+        }
+
+        .FooterCenterBigDivFooter1 {
+            display: block;
+        }
+
+        .footerCenterBottomTitleMedia320InternetMarketing {
+            font-size: 16px;
+            line-height: 150%;
+            width: 157px;
+            height: 24px;
+            margin: 0;
+            margin-top: 60px;
+        }
+
+        .footerCenterLinks {
+            width: 250px;
+            height: 38px;
+            font-size: 14px;
+            line-height: 135%;
+            margin: 10px 0px;
+        }
+
+        .footerCenterBottomTitleRazrabotkaMedia320 {
+            font-size: 16px;
+            line-height: 150%;
+            width: 157px;
+            height: 24px;
+        }
+
+        .wrap {
+            display: block !important;
+        }
+
+        .footerCenterBottomTitle {
+            font-size: 16px;
+            line-height: 150%;
+            margin: 40px 0;
+            margin-bottom: 20px;
+        }
+
+        /* .footerCenterBigLinks2{
+        display: none !important;
+      } */
+    }
