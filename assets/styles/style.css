@@ -11,8 +11,12 @@
     header {
         max-width: 1920px;
         position: relative;
-        background-color: #fff !important;
-        margin: auto;
+        background-color: #fff;
+        height: 3vh;
+    }
+    
+    .headerNav {
+        position: absolute;
     }
     
     header nav {
@@ -21,10 +25,10 @@
         justify-content: space-between;
         align-items: center;
         padding-left: 50px;
-        padding-top: 42px;
+        padding-top: 45px;
         margin: auto;
         position: relative;
-        z-index: 5;
+        z-index: 152;
     }
     
     header nav .header-left {
@@ -54,12 +58,13 @@
     }
     
     header nav .header-left .dropdown .dropdown-item {
+        box-sizing: content-box;
         position: absolute;
         width: 200px;
         top: -60px;
         left: -60px;
         background-color: rgb(255, 255, 255);
-        padding: 60px;
+        padding: 60px 30px 40px 60px;
         border-radius: 12px;
         display: none;
     }
@@ -104,7 +109,15 @@
         cursor: pointer;
     }
     
-    header nav .header-center .header-add-btn button i {
+    header nav .header-center .header-add-btn button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 254px;
+    }
+    
+    header nav .header-center .header-add-btn button svg {
         margin-left: 20px;
     }
     
@@ -125,9 +138,16 @@
         font-size: 20px;
         line-height: 150%;
         color: #8b95a0;
+        transition: all 0.3s;
     }
     
-    header nav .header-right-ul .header-right-bars button {
+    header nav .dropdown-item-ul ul li a:hover {
+        background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .header-right-bars button {
         position: fixed;
         top: 45px;
         right: 45px;
@@ -144,15 +164,6 @@
         position: relative;
     }
     
-    header nav .header-center .header-add-btn button {
-        display: flex;
-        align-items: center;
-    }
-    
-    header nav .header-center .header-add-btn button svg {
-        margin-left: 20px;
-    }
-    
     header nav .dropdown-item-ul {
         width: 400px;
         position: absolute;
@@ -162,7 +173,9 @@
         display: none;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 10px 10px 57px 1px rgb(100, 100, 100);
+        box-shadow: 0px 0px 1px 0px rgb(150, 150, 150);
+        opacity: 0;
+        transition: opacity 0.5s;
     }
     
     header nav .dropdown-item-ul ul {
@@ -180,12 +193,12 @@
     header .header-top {
         width: 100%;
         height: 100vh;
-        position: absolute;
-        top: -200vh;
+        position: fixed;
+        top: -130vh;
         left: 0;
         background-color: #0f0e10;
         transition: 1s;
-        z-index: 20;
+        z-index: 1000;
     }
     
     header .header-top .exit {
@@ -347,13 +360,15 @@
     }
     
     header .header .header-title {
-        padding-left: 325px;
-        padding-top: 230px;
+        max-width: 1250px;
+        margin: auto;
+        padding-top: 305px;
         position: relative;
-        z-index: 2;
+        z-index: 4;
     }
     
     header .header .header-title h3 {
+        font-style: normal;
         font-weight: 600;
         font-size: 102px;
         line-height: 120%;
@@ -361,23 +376,13 @@
     }
     
     header .header .header-title h2 {
-        font-family: Nunito Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 50px;
-        line-height: 130%;
-        color: #2d3845;
-        padding-top: 40px;
-    }
-    
-    header .header .header-title h2 span {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-style: normal;
         font-weight: 600;
-        font-size: 50px;
-        line-height: 130%;
+        font-size: 102px;
+        line-height: 120%;
     }
     /* header end */
     /* section start */
