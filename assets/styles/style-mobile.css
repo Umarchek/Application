@@ -1,8 +1,85 @@
 @media screen and (max-width: 1559px) {
+    header {
+        max-width: 1024px;
+        padding-left: 42px;
+    }
+    header nav {
+        max-width: 1024px;
+        padding-left: 0px;
+        justify-content: start;
+    }
+    .header-right-bars button {
+        margin-left: 125px;
+        position: inherit;
+    }
+    header nav .header-right-ul ul {
+        display: none;
+    }
+    header nav .header-right-ul {
+        width: 0;
+    }
+    header nav .header-right-ul .header-right-bars button {
+        position: unset;
+    }
+    .logo {
+        margin-right: 47px;
+    }
+    header nav .header-left {
+        margin-right: 84px;
+        justify-content: start;
+        width: 243px;
+    }
+    header nav .header-center {
+        width: 413px;
+    }
+    header nav .header-center .header-number h4 {
+        font-size: 18px;
+    }
+    header nav .header-center .header-add-btn button {
+        font-size: 18px;
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 235px;
+    }
+    header nav .header-center .header-add-btn button svg {
+        margin-left: 20px;
+    }
+    header nav .header-left .dropdown a {
+        font-size: 18px;
+    }
+    header .header-top .header-top-center-top-ul {
+        width: 100%;
+    }
+    header .header-top .header-top-center-bottom-ul {
+        width: 100%;
+    }
+    header .header-top .header-top-center-top-ul li a {
+        font-size: 52px;
+        line-height: 120%;
+    }
+    header .header-top .header-top-center-top-ul li {
+        padding-right: 0;
+        padding-left: 80px;
+    }
+    .kon {
+        margin-left: 80px;
+    }
+    header .header-top .header-top-center-bottom-ul li a {
+        font-size: 22px;
+        line-height: 150%;
+    }
+    .connections-fixed {
+        display: none;
+    }
+    header .header-top {
+        height: auto;
+    }
     .ibi {
         margin-left: 57px;
     }
-
     .FooterCenterBigDiv {
         width: 940px;
         height: 212px;
@@ -12,64 +89,52 @@
         /* flex-direction: row; */
         /* align-items: flex-start;*/
     }
-
     footer {
         padding: 42px;
     }
-
     .footer {
         width: inherit !important;
     }
-
     .footerTitle {
         font-size: 65px;
         line-height: 120%;
     }
-
     .footerTitle2 {
         font-size: 36px;
         line-height: 130%;
     }
-
     .footerCenterBigTitle {
         font-size: 36px;
         line-height: 130%;
     }
-
     .footerCenterSmallTitles {
         font-size: 18px;
         line-height: 150%;
     }
-
     .footerCenter {
         width: 897px;
         height: 74px;
     }
-
     .footerCenterBottom {
         /* width: 300px;
         height: 193px; */
         width: 300px;
         height: 173px;
     }
-
     .footerCenterTitle {
         font-size: 14px;
         line-height: 135%;
     }
-
     .footerCenterBottomTitle {
         font-size: 18px;
         line-height: 150%;
         width: 177px;
         height: 27px;
     }
-
     .footerCenterBigLinks {
         width: 300px;
         height: 155px;
     }
-
     .footerCenterLinks {
         width: 300px;
         height: 19px;
@@ -78,17 +143,14 @@
         /* width: 300px; */
         /* height: 19px;*/
     }
-
     .footerCenterBottomTitleRazrabotka {
         width: 100px;
         height: 27px;
     }
-
     .footerCenterBottomTitleCompany {
         width: 86px;
         height: 27px;
     }
-
     .footerCenterBottom2 {
         width: 940px;
         height: 173px;
@@ -97,7 +159,6 @@
         /* align-items: flex-start; */
         margin-top: 200px;
     }
-
     .footerCenterBottomTitleCRM {
         width: 300px;
         height: 54px;
@@ -105,96 +166,88 @@
 }
 
 @media screen and (max-width: 989px) {
-
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {
         width: 940px !important;
     }
-
-    header {
-        padding-left: 26px;
-    }
-
-    header nav {
-        padding-top: 20px;
-        max-width: 768px;
-    }
-
-    .header-bg {
+    header nav .header-left .dropdown {
         display: none;
     }
-
-    header .header .header-title h3,
-    header .header .header-title h2 {
-        font-size: 55px;
+    .header-add-btn {
+        display: none;
     }
-
+    header nav .header-right-ul .header-right-bars button {
+        position: absolute;
+    }
+    header .header-top .header-top-center-top-ul {
+        flex-direction: column;
+        align-items: start;
+    }
+    header .header-top .header-top-center-top-ul li {
+        padding-left: 100px;
+    }
+    header .header-top .header-top-center-top-ul li {
+        padding-top: 60px;
+    }
+    header .header-top {
+        height: auto;
+    }
+    header .header-top .header-top-center-bottom-ul {
+        display: none;
+    }
     .ibi {
         margin-left: 0 !important;
     }
-
     header .headerNav .header-right-ul .header-none {
         display: none !important;
     }
-
     header nav .header-center .header-add-btn button {
         width: 235px !important;
         font-size: 18px !important;
         margin-left: 40px !important;
     }
-
     header nav .header-center .header-number h4 {
         font-size: 18px !important;
         width: 154px !important;
         margin-left: 84px !important;
     }
-
     header nav .header-left .dropdown {
         margin-left: 47px !important;
     }
-
     .ibi .section-header-text .left-text-section {
         margin-right: 204px !important;
     }
-
     .ibi .section-header-text .left-text-section .left-info-section,
     .ibi .section-header-text .right-text-section .right-mail-section,
     .ibi .section-adress-text .section-adress-info .section-adress-infoo,
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
         font-size: 18px !important;
     }
-
     .ibi .section-header-text .left-text-section .left-number-section,
     .ibi .section-header-text .right-text-section .right-emmail-section,
     .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
         font-size: 36px !important;
     }
-
     .section-big-class {
         width: 940px !important;
     }
-
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
         width: 284px !important;
         left: 50% !important;
     }
-
     .section-big-maps-logo {
         left: 50% !important;
     }
-
     .ibi .application .application-info .application-text {
         margin-top: 200px !important;
         width: 940px !important;
         font-size: 65px !important;
     }
-
     .ibi .application .application-info .application-paragraf {
         margin-bottom: 40px !important;
         width: 940px !important;
         font-size: 23px !important;
     }
-
     .necessary .necessary-info .necessary-text,
     .resurs .resurs-info .resurs-text,
     .budget .budget-info .budget-text,
@@ -203,58 +256,46 @@
         font-size: 36px !important;
         margin-bottom: 20px !important;
     }
-
     .necessary .necessary-info .necessary-buttons {
         width: 885px !important;
     }
-
     .resurs .resurs-info .resurs-buttons {
         width: 954px !important
     }
-
     .contacts .contact-info .contact-inputs input {
         width: 940px !important;
         font-size: 18px !important;
     }
-
     .data-buttons {
         width: 600px;
         display: flex;
     }
-
     .data .data-info .data-paragraf {
         font-size: 18px !important;
         margin-bottom: 105px !important;
         width: 940px !important;
     }
-
     /* footer start ================================================ */
-
     .footerTitle {
         font-size: 54px;
         line-height: 120%;
     }
-
     .footerTitle2 {
         font-size: 30px;
         line-height: 130%;
     }
-
     .footerCenterBigTitle {
         font-size: 30px;
         line-height: 130%;
     }
-
     .footerCenter {
         width: 710px;
         height: 66px;
         flex-wrap: wrap;
     }
-
     /* .footerCenterBigLinks2{
     display: block !important;
   } */
-
     .footerCenterTitle {
         display: flex;
         flex-direction: row;
@@ -262,7 +303,6 @@
         height: 19px;
         margin: 20px 0px;
     }
-
     .footerCenterTitle span {
         margin: 0px 10px;
         width: 216px !important;
@@ -271,40 +311,33 @@
         height: 19px;
         margin-left: 60px;
     }
-
     .FooterCenterBigDiv {
         width: 710px;
         height: 212px;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
     .footerCenterBottomTitleCompany {
         margin-top: 480px;
     }
-
     .footerCenterBottomTitleCRM {
         margin-top: 30px;
         margin-bottom: 0 !important;
     }
-
     .footerCenterBigLinks {
         margin-top: 0;
     }
-
     .footerCenterBigLinksMediaTo768 {
         display: flex;
         flex-direction: row;
         width: 341px;
         height: 19px;
     }
-
     .footerCenterBottom2 {
         width: 710px;
         height: 154px;
         justify-content: space-between;
     }
-
     .footerCenterLinks {
         margin: 20px 0px;
         margin-bottom: 0;
@@ -312,45 +345,46 @@
 }
 
 @media screen and (max-width: 767px) {
-    header {
-        max-width: 300px;
+    header .header-top .header-top-center-top-ul li {
+        padding-left: 30px;
     }
-
+    header .header-top .header-top-center-top-ul li a {
+        font-size: 30px;
+        line-height: 120%;
+    }
+    header .header-top .header-top-left {
+        padding: 20px;
+    }
+    header .header-top .exit {
+        padding: 10px 15px;
+    }
     .ibi {
         margin-left: 100px !important;
     }
-
     header nav .header-left {
         width: 115px;
     }
-
     .header-right-bars button {
         position: unset;
     }
-
     header .header .header-title {
         padding-top: 95px;
     }
-
     header .header .header-title h3,
     header .header .header-title h2 {
         font-size: 37px;
     }
-
     .sm-none {
         display: none !important;
     }
-
     .container {
         max-width: none !important;
     }
-
     .ibi .section-header-text .left-text-section .left-info-section,
     .ibi .section-header-text .right-text-section .right-mail-section,
     .ibi .section-adress-text .section-adress-info .section-adress-infoo {
         font-size: 18px !important;
     }
-
     .ibi .section-header-text .left-text-section .left-number-section,
     .ibi .section-header-text .right-text-section .right-emmail-section,
     .necessary .necessary-info .necessary-text,
@@ -360,93 +394,75 @@
     .data .data-info .data-text {
         font-size: 30px !important;
     }
-
     .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
         margin-bottom: 60px !important;
         font-size: 30px !important;
     }
-
     .ibi .application .application-info .application-text {
         margin-top: 100px !important;
         font-size: 54px !important;
     }
-
     .ibi .section-header-text .left-text-section {
         margin-right: 0 !important;
     }
-
     .section-big-class {
         width: 710px !important;
     }
-
     .ibi .application .application-info .application-paragraf {
         font-size: 20px !important;
         margin-bottom: 40px !important;
     }
-
     .necessary,
     .contacts .contact-info .contact-text {
         margin-top: 60px !important;
     }
-
     .necessary .necessary-info .necessary-buttons {
         width: 778px !important;
     }
-
     .necessary .necessary-info .necessary-buttons .necessary-button,
     .resurs .resurs-info .resurs-buttons .resurs-button,
     .budget .budget-info .budget-buttons .budget-button,
     .data .data-info .data-buttons .data-button {
         font-size: 16px !important;
     }
-
     .resurs .resurs-info .resurs-buttons {
         width: 873px !important;
     }
-
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input,
     .contacts .contact-info .contact-inputs input {
         width: 710px !important;
     }
-
     .contacts .contact-info .contact-inputs input:last-child {
         margin-bottom: 60px !important;
     }
-
     .data .data-info .data-paragraf {
         width: 710px !important;
         font-size: 16px !important;
     }
-
     header nav .header-right-ul .header-right-bars button {
         position: unset !important;
         width: 1100px;
     }
-
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
         left: 30% !important;
         top: 30% !important;
     }
-
     .section-big-maps-logo {
         top: 40% !important;
         left: 40% !important;
     }
-
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {
         width: 710px !important;
         font-size: 16px !important;
     }
-
     .left-info-section {
         font-size: 16px !important;
         line-height: 150% !important;
         width: 208px;
         height: 24px;
     }
-
     .necessary-button-title {
         width: 162px;
         height: 24px;
@@ -455,11 +471,9 @@
         line-height: 150%;
         color: #2D3845;
     }
-
     .necessary-button-padding {
         padding: 18px 15px !important;
     }
-
     .resurs-button-title {
         font-style: normal;
         font-weight: normal;
@@ -469,7 +483,6 @@
         width: 135px;
         height: 24px;
     }
-
     .budget-button-title {
         font-style: normal;
         font-weight: normal;
@@ -479,18 +492,15 @@
         width: 72px;
         height: 24px;
     }
-
     footer {
         padding: 60px 15px;
         width: 320px;
         height: 100vh;
         margin-top: 0;
     }
-
     .footer {
         width: 290px !important;
     }
-
     .footerTitle {
         font-size: 36px;
         line-height: 120%;
@@ -498,57 +508,46 @@
         margin-bottom: 30px;
         padding: 0;
     }
-
     .footerTitle2 {
         display: flex;
         font-size: 24px;
         line-height: 130%;
         align-items: center;
     }
-
     .footerTitle2 button {
         margin-left: 20px;
     }
-
     .footerCenter {
         width: 290px;
         height: 190px;
     }
-
     .footerCenterBottom {
         width: inherit;
         height: inherit;
     }
-
     .footerCenterBigTitle {
         font-size: 24px;
         line-height: 130%;
         width: 350px;
         height: 55px;
     }
-
     .footerCenterTitle {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-
     .footerCenterTitle span {
         margin: 0;
     }
-
     .footerCenterBottom2 {
         display: none;
     }
-
     .FooterCenterBigDiv {
         display: none;
     }
-
     .FooterCenterBigDivFooter1 {
         display: block;
     }
-
     .footerCenterBottomTitleMedia320InternetMarketing {
         font-size: 16px;
         line-height: 150%;
@@ -557,7 +556,6 @@
         margin: 0;
         margin-top: 60px;
     }
-
     .footerCenterLinks {
         width: 250px;
         height: 38px;
@@ -565,183 +563,150 @@
         line-height: 135%;
         margin: 10px 0px;
     }
-
     .footerCenterBottomTitleRazrabotkaMedia320 {
         font-size: 16px;
         line-height: 150%;
         width: 157px;
         height: 24px;
     }
-
     .wrap {
         display: block !important;
     }
-
     .footerCenterBottomTitle {
         font-size: 16px;
         line-height: 150%;
         margin: 40px 0;
         margin-bottom: 20px;
     }
-
     /* .footerCenterBigLinks2{
         display: none !important;
       } */
 }
 
 @media screen and (max-width: 320px) {
-
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {
         width: 290px !important;
         font-size: 16px !important;
     }
-
     .necessary .necessary-info .necessary-buttons .necessary-button,
     .resurs .resurs-info .resurs-buttons .resurs-button,
     .budget .budget-info .budget-buttons .budget-button,
     .data .data-info .data-buttons .data-button {
         height: 52px !important;
     }
-
     .necessary .necessary-info .necessary-buttons .necessary-button,
     .resurs .resurs-info .resurs-buttons .resurs-button,
     .budget .budget-info .budget-buttons .budget-button,
     .data .data-info .data-buttons .data-button {
         width: 100% !important;
     }
-
     header {
         padding-left: 15px !important;
     }
-
     .ibi {
         overflow: hidden !important;
     }
-
     .tdn {
         display: none !important;
     }
-
     .dbx {
         display: block !important;
     }
-
     .sm-none {
         display: none !important;
     }
-
     .logo img {
         width: 90px;
         height: 44px;
     }
-
     .headerNav {
         padding-top: 23px;
         padding-left: 0px !important;
     }
-
     .ibi {
         margin-top: 72px !important;
         margin-bottom: 10px !important;
         margin-left: 15px !important;
     }
-
     .ibi .section-header-text .left-text-section .left-info-section {
         margin-top: 43px !important;
         font-size: 16px !important;
         line-height: 150% !important;
         margin-bottom: 10px !important;
     }
-
     .ibi .section-header-text .left-text-section .left-number-section {
         font-size: 24px !important;
         line-height: 130% !important;
         width: 184px !important;
     }
-
     .ibi .section-header-text .left-text-section {
         margin-right: 0 !important;
     }
-
     .ibi .section-header-text .right-text-section .right-emmail-section {
         font-size: 24px !important;
         line-height: 130% !important;
         width: 216px !important;
     }
-
     .ibi .section-header-text {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap !important;
     }
-
     header nav .header-right-ul .header-right-bars button {
         position: unset !important;
         width: 200px !important;
     }
-
     .ibi .section-header-text .right-text-section .right-mail-section {
         margin-top: 20px !important;
         margin-bottom: 10px !important;
         font-size: 16px !important;
         line-height: 150% !important;
     }
-
     .ibi .section-header-text .right-text-section .right-emmail-section {
         font-size: 24px !important;
         line-height: 130% !important;
         width: 216px !important;
     }
-
     .ibi .section-adress-text .section-adress-info {
         margin-top: 20px !important;
     }
-
     .ibi .section-adress-text .section-adress-info .section-adress-infoo {
         font-size: 16px !important;
         line-height: 150% !important;
         margin-bottom: 10px !important;
     }
-
     .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
         font-size: 24px !important;
         line-height: 130% !important;
         width: 290px !important;
         margin-bottom: 50px !important;
     }
-
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
         display: none !important;
     }
-
     .ibi .application .application-info .application-text {
         margin-top: 100px !important;
         font-size: 36px !important;
         line-height: 120% !important;
         width: 290px !important;
     }
-
     .ibi .application .application-info .application-paragraf {
         margin-top: 20px !important;
         font-size: 18px !important;
         line-height: 160% !important;
         width: 290px !important;
     }
-
     .ibi .application .application-social ul {
         width: 300px;
         flex-wrap: wrap;
     }
-
     .ibi .application .application-social ul li .application-phone {
         margin-left: 0 !important;
     }
-
     .necessary {
         margin-top: 60px !important;
     }
-
     .necessary .necessary-info .necessary-text,
     .resurs .resurs-info .resurs-text,
     .budget .budget-info .budget-text,
@@ -750,29 +715,24 @@
         font-size: 24px !important;
         margin-bottom: 20px !important;
     }
-
     .data .data-info .data-paragraf {
         font-size: 16px !important;
         width: 290px;
     }
-
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input,
     .contacts .contact-info .contact-inputs input {
         width: 290px !important;
     }
-
     .data .data-info .data-paragraf {
         width: 290px !important;
         font-size: 16px !important;
     }
-
     .necessary .necessary-info .necessary-buttons,
     .resurs .resurs-info .resurs-buttons {
         width: auto !important;
         flex-wrap: nowrap !important;
     }
-
     .swiper-slide {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -787,34 +747,27 @@
         -webkit-align-items: center;
         align-items: center;
     }
-
     .conatiner {
         overflow: hidden;
     }
-
     .send {
         flex-wrap: wrap !important;
         justify-content: center !important;
     }
-
     header nav .header-left {
         width: 1500px !important;
     }
-
     .send p {
         margin-left: 0 !important;
         text-align: center !important;
     }
-
     .necessary .necessary-info .necessary-buttons .necessary-button,
     .resurs .resurs-info .resurs-buttons .resurs-button,
     .budget .budget-info .budget-buttons .budget-button,
     .data .data-info .data-buttons .data-button {
         font-size: 16px !important;
     }
-
     .section-big-class {
         width: 290px !important;
     }
-
 }
