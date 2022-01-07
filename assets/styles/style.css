@@ -4,10 +4,19 @@
         box-sizing: border-box;
         text-decoration: none;
         font-family: Nunito Sans;
-        list-style: none;
     }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "Nunito Sans", sans-serif;
+        list-style: none;
+        text-decoration: none;
+    }
+
+
     /* header start */
-    
+
     header {
         max-width: 1920px;
         position: relative;
@@ -15,11 +24,11 @@
         margin: auto;
         height: 3vh;
     }
-    
+
     .headerNav {
         position: absolute;
     }
-    
+
     header nav {
         max-width: 1920px;
         width: 100%;
@@ -32,18 +41,18 @@
         position: relative;
         z-index: 5;
     }
-    
+
     header nav .header-left {
         width: 360px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     header nav .header-left .dropdown {
         position: relative;
     }
-    
+
     header nav .header-left .dropdown a {
         font-style: normal;
         font-weight: 600;
@@ -53,12 +62,12 @@
         display: flex;
         align-items: center;
     }
-    
+
     header nav .header-left .dropdown a .fas {
         font-size: 15px;
         margin-left: 10px;
     }
-    
+
     header nav .header-left .dropdown .dropdown-item {
         box-sizing: content-box;
         position: absolute;
@@ -70,28 +79,28 @@
         border-radius: 12px;
         display: none;
     }
-    
+
     header nav .header-left .dropdown .dropdown-item .dropdown-item-a {
         padding: 15px 0;
     }
-    
+
     header nav .header-left .dropdown .dropdown-item .dropdown-item-a-first {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
+
     header nav .header-left .dropdown .dropdown-item .dropdown-item-a-first {
         padding-bottom: 15px;
     }
-    
+
     header nav .header-center {
         width: 497px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
-    
+
     header nav .header-center .header-number h4 {
         font-family: Nunito Sans;
         font-style: normal;
@@ -100,7 +109,7 @@
         line-height: 150%;
         color: #379bad;
     }
-    
+
     header nav .header-center .header-add-btn button {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
@@ -110,23 +119,23 @@
         font-weight: 600;
         cursor: pointer;
     }
-    
+
     header nav .header-center .header-add-btn button i {
         margin-left: 20px;
     }
-    
+
     header nav .header-right-ul {
         width: 600px;
     }
-    
+
     header nav .header-right-ul ul {
         display: flex;
     }
-    
+
     header nav .header-right-ul ul li {
         padding: 0 30px;
     }
-    
+
     header nav .header-right-ul ul li a {
         font-weight: 600;
         font-size: 20px;
@@ -134,13 +143,13 @@
         color: #8b95a0;
         transition: all 0.3s;
     }
-    
+
     header nav .dropdown-item-ul ul li a:hover {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
+
     header nav .header-right-ul .header-right-bars button {
         position: fixed;
         top: 45px;
@@ -153,11 +162,11 @@
         border-radius: 12px;
         z-index: 20;
     }
-    
+
     header nav .header-right-ul .hover-ul {
         position: relative;
     }
-    
+
     header nav .dropdown-item-ul {
         width: 400px;
         position: absolute;
@@ -171,19 +180,19 @@
         opacity: 0;
         transition: opacity 0.5s;
     }
-    
+
     header nav .dropdown-item-ul ul {
         display: block;
     }
-    
+
     header nav .dropdown-item-ul ul li a {
         padding: 15px 0;
     }
-    
+
     header nav .dropdown-item-ul ul li {
         padding: 15px 0;
     }
-    
+
     header .header-top {
         width: 100%;
         height: 100vh;
@@ -194,7 +203,7 @@
         transition: 1s;
         z-index: 20;
     }
-    
+
     header .header-top .exit {
         display: flex;
         align-items: center;
@@ -205,19 +214,19 @@
         border-radius: 12px;
         cursor: pointer;
     }
-    
+
     header .header-top .header-top-left {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 42px 50px;
     }
-    
+
     header .header-top .header-top-left .exit i {
         font-size: 20px;
         color: white;
     }
-    
+
     header .header-top .header-top-center-top-ul {
         display: flex;
         align-items: center;
@@ -225,12 +234,12 @@
         width: 1300px;
         margin: auto;
     }
-    
+
     header .header-top .header-top-center-top-ul li {
         padding-right: 70px;
         padding-top: 105px;
     }
-    
+
     header .header-top .header-top-center-top-ul li a {
         font-family: Nunito Sans;
         font-style: normal;
@@ -239,12 +248,12 @@
         line-height: 120%;
         color: #ffffff;
     }
-    
+
     header .header-top .header-top-center-top-ul li a:hover {
         color: #8b95a0;
         transition: 0.3s;
     }
-    
+
     header .header-top .header-top-center-bottom-ul {
         display: flex;
         align-items: center;
@@ -253,11 +262,11 @@
         margin: auto;
         padding-top: 40px;
     }
-    
+
     header .header-top .header-top-center-bottom-ul li {
         padding-right: 40px;
     }
-    
+
     header .header-top .header-top-center-bottom-ul li a {
         font-family: Nunito Sans;
         font-style: normal;
@@ -266,19 +275,19 @@
         line-height: 150%;
         color: #ffffff;
     }
-    
+
     header .header-top .header-top-center-bottom-ul li a:hover {
         color: #8b95a0;
         transition: 0.3s;
     }
-    
+
     header .header-top .header-top-bottom .header-add-btn {
         display: flex;
         align-items: center;
         width: auto;
         display: none;
     }
-    
+
     header .header-top .header-top-bottom .header-add-btn button {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
@@ -292,7 +301,7 @@
         margin-right: 20px;
         cursor: pointer;
     }
-    
+
     header .header-top .header-top-bottom .header-add-btn span .fas {
         padding: 15px;
         border-radius: 12px;
@@ -300,7 +309,7 @@
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         cursor: pointer;
     }
-    
+
     header .header-top .header-top-bottom .connections {
         display: flex;
         align-items: center;
@@ -308,7 +317,7 @@
         flex-wrap: wrap;
         display: none;
     }
-    
+
     header .header-top .header-top-bottom .connections p {
         font-style: normal;
         font-weight: 600;
@@ -317,30 +326,30 @@
         color: #8b95a0;
         padding-right: 10px;
     }
-    
+
     header .header-top .header-top-bottom .connections ul {
         display: flex;
         align-items: center;
     }
-    
+
     header .header-top .header-top-bottom .connections ul li {
         padding: 0 10px;
     }
-    
+
     header .header-top .header-top-bottom .connections ul li a {
         color: #8b95a0;
         padding: 12px 14px;
         background: #2d3845;
         border-radius: 12px;
     }
-    
+
     header .header-top .header-top-bottom .connections ul li a:hover {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         border-radius: 12px;
         color: white;
         transition: 0.3s;
     }
-    
+
     header .header .header-bg {
         position: absolute;
         top: 30%;
@@ -352,7 +361,7 @@
         height: 700px;
         z-index: 1;
     }
-    
+
     header .header .header-title {
         max-width: 1250px;
         margin: auto;
@@ -360,7 +369,7 @@
         position: relative;
         z-index: 4;
     }
-    
+
     header .header .header-title h3 {
         font-style: normal;
         font-weight: 600;
@@ -368,7 +377,7 @@
         line-height: 120%;
         color: #2d3845;
     }
-    
+
     header .header .header-title h2 {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
@@ -378,39 +387,44 @@
         font-size: 102px;
         line-height: 120%;
     }
+
+
     /* header end */
+
+
     /* section start */
-    
+
     .button-active {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%) !important;
         color: white !important;
     }
-    
+
     .d-n {
         display: none;
     }
-    
+
     .ibi {
         max-width: 1250px;
         margin: auto;
         margin-top: 215px;
     }
-    
+
     .ibi .section-header-text {
         display: flex;
     }
-    
+
     .ibi .section-adress-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .ibi .section-header-text .left-text-section,
     .ibi .section-header-text .right-text-section {
+
         width: 50%;
     }
-    
+
     .ibi .section-header-text .left-text-section .left-info-section {
         font-style: normal;
         font-weight: 600;
@@ -419,7 +433,7 @@
         color: #8b95a0;
         margin-bottom: 30px;
     }
-    
+
     .ibi .section-header-text .left-text-section .left-number-section {
         font-style: normal;
         font-weight: 600;
@@ -428,7 +442,7 @@
         color: #2d3845;
         width: 383px;
     }
-    
+
     .ibi .section-header-text .right-text-section .right-mail-section {
         font-style: normal;
         font-weight: 600;
@@ -437,7 +451,7 @@
         color: #8b95a0;
         margin-bottom: 30px;
     }
-    
+
     .ibi .section-header-text .right-text-section .right-emmail-section {
         font-style: normal;
         font-weight: 600;
@@ -446,18 +460,18 @@
         color: #2d3845;
         width: 450px;
     }
-    
+
     .ibi .section-adress-text .section-adress-info {
         margin-top: 100px;
     }
-    
+
     .ibi .section-adress-text .section-adress-info .section-adress-infoo {
         font-weight: 600;
         font-size: 20px;
         line-height: 150%;
         color: #8b95a0;
     }
-    
+
     .ibi .section-adress-text .section-adress-info .section-adress-paragraf {
         font-weight: 600;
         font-size: 50px;
@@ -465,11 +479,11 @@
         color: #2d3845;
         margin-bottom: 100px;
     }
-    
+
     .ibi .section-adress-text .section-big-map {
         position: relative;
     }
-    
+
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons {
         background: #ffffff;
         position: absolute;
@@ -484,11 +498,11 @@
         top: 35%;
         left: 35%;
     }
-    
+
     .ibi .section-adress-text .section-big-map .section-big-maps-button .section-big-maps-buttons span img {
         padding-left: 20px;
     }
-    
+
     .ibi .application .application-info .application-text {
         font-weight: 600;
         font-size: 100px;
@@ -496,7 +510,7 @@
         color: #2d3845;
         margin-top: 230px;
     }
-    
+
     .ibi .application .application-info .application-paragraf {
         font-style: normal;
         font-weight: normal;
@@ -507,19 +521,19 @@
         margin-bottom: 52px;
         color: #2d3845;
     }
-    
+
     .ibi .application .application-social ul {
         display: flex;
         align-items: center;
     }
-    
+
     .ibi .application .application-social ul li img {
         margin-right: 10px;
         background: #f4f8fa;
         border-radius: 12px;
         padding: 12px;
     }
-    
+
     .ibi .application .application-social ul li .application-phone {
         font-style: normal;
         font-weight: 600;
@@ -530,11 +544,11 @@
         -webkit-background-clip: text;
         margin-left: 40px;
     }
-    
+
     .necessary {
         margin-top: 100px;
     }
-    
+
     .necessary .necessary-info .necessary-text {
         font-weight: 600;
         font-size: 50px;
@@ -542,7 +556,7 @@
         color: #2d3845;
         margin-bottom: 30px;
     }
-    
+
     .resurs .resurs-info .resurs-text {
         font-weight: 600;
         font-size: 50px;
@@ -550,14 +564,14 @@
         color: #2d3845;
         margin-bottom: 20px;
     }
-    
+
     .necessary .necessary-info .necessary-buttons,
     .resurs .resurs-info .resurs-buttons {
         display: flex;
         width: 900px;
         flex-wrap: wrap;
     }
-    
+
     .necessary .necessary-info .necessary-buttons .necessary-button,
     .resurs .resurs-info .resurs-buttons .resurs-button,
     .budget .budget-info .budget-buttons .budget-button,
@@ -576,13 +590,13 @@
         margin-right: 20px;
         cursor: pointer;
     }
-    
+
     .necessary .necessary-info .necessary-buttons .necessary-button-active,
     .resurs .resurs-info .resurs-buttons .resurs-button-active {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         color: white;
     }
-    
+
     .necessary .necessary-info .necessary-input input,
     .resurs .resurs-info .resurs-input input {
         background: #f4f8fa;
@@ -599,13 +613,13 @@
         border-radius: 12px;
         margin-bottom: 100px;
     }
-    
+
     .necessary .necessary-info .necessary-input input:focus,
     .resurs .resurs-info .resurs-input input:focus,
     .contacts .contact-info .contact-inputs input:focus {
         outline: none;
     }
-    
+
     .budget .budget-info .budget-text {
         font-weight: 600;
         font-size: 50px;
@@ -613,7 +627,7 @@
         margin-bottom: 20px;
         color: #2d3845;
     }
-    
+
     .contacts .contact-info .contact-text {
         font-weight: 600;
         font-size: 50px;
@@ -622,7 +636,7 @@
         margin-top: 100px;
         margin-bottom: 20px;
     }
-    
+
     .contacts .contact-info .contact-inputs input {
         display: block;
         margin-bottom: 30px;
@@ -634,14 +648,14 @@
         box-sizing: border-box;
         border-radius: 12px;
     }
-    
+
     .contacts .contact-info .contact-inputs input:last-child {
         margin-bottom: 100px;
         padding-bottom: 70px;
         width: 1010px;
         height: 140px;
     }
-    
+
     .data .data-info .data-text {
         font-weight: 600;
         font-size: 50px;
@@ -649,7 +663,7 @@
         margin-bottom: 20px;
         color: #2d3845;
     }
-    
+
     .data .data-info .data-paragraf {
         font-weight: normal;
         font-size: 18px;
@@ -658,13 +672,13 @@
         margin-bottom: 100px;
         color: #8b95a0;
     }
-    
+
     .send {
         display: flex;
         align-items: center;
         margin-bottom: 200px;
     }
-    
+
     .send .send-buttons .send-button span img {
         margin-left: 20px;
         background: #f4f8fa;
@@ -674,7 +688,7 @@
         padding-right: 12px;
         padding-bottom: 16px;
     }
-    
+
     .send .send-buttons .send-button {
         display: flex;
         align-items: center;
@@ -687,30 +701,30 @@
         -webkit-background-clip: text;
         border: none;
     }
-    
+
     .send p {
         font-size: 12px;
         line-height: 135%;
         color: #8b95a0;
         margin-left: 40px;
     }
-    
+
     .map {
         height: 200px !important;
     }
-    
+
     .ChangedMap {
         height: 600px !important;
     }
-    
+
     .d-none {
         display: none;
     }
-    
+
     .d-block {
         display: block !important;
     }
-    
+
     .section-big-maps-logo {
         background: transparent;
         position: absolute;
@@ -725,19 +739,20 @@
         top: 35%;
         left: 35%;
     }
-    
+
+
     footer {
         background: #000;
         margin-top: 200px;
         color: #fff;
         height: 1223px;
     }
-    
+
     .footer {
         width: 1530px !important;
         margin: auto;
     }
-    
+
     .footerTitle {
         font-family: Nunito Sans;
         font-style: normal;
@@ -745,42 +760,44 @@
         font-size: 100px;
         line-height: 120%;
         /* identical to box height, or 120px */
+
         /* LIght/White */
+
         color: #ffffff;
         padding-top: 150px;
     }
-    
+
     .FooterCenterBigDiv {
         display: flex;
         width: 1530px;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    
+
     .footerCenterBottom2 {
         display: flex;
     }
-    
+
     .footerTitle2 {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
+
     .footerTitle2 button {
         background: #1b558d;
         border-radius: 12px;
         border: none;
         padding: 15px;
     }
-    
+
     .footerTitle2 button img {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-    
+
     .footerCenter {
         display: flex;
         width: 1297px;
@@ -788,7 +805,7 @@
         align-items: center;
         margin-top: 100px;
     }
-    
+
     .footerCenterTitle {
         display: flex;
         flex-direction: column;
@@ -798,10 +815,12 @@
         font-size: 14px;
         line-height: 135%;
         /* or 19px */
+
         /* LIght/White */
+
         color: #ffffff;
     }
-    
+
     .footerCenterBigTitle {
         font-family: Nunito Sans;
         font-style: normal;
@@ -809,12 +828,14 @@
         font-size: 50px;
         line-height: 130%;
         /* identical to box height, or 65px */
+
         /* LIght/White */
+
         color: #ffffff;
         display: flex;
         flex-direction: column;
     }
-    
+
     .footerCenterBigTitle a {
         font-family: Nunito Sans;
         font-style: normal;
@@ -822,10 +843,12 @@
         font-size: 20px;
         line-height: 150%;
         /* identical to box height, or 30px */
+
         /* Dark/Light Gray */
+
         color: #8b95a0;
     }
-    
+
     .footerCenterSmallTitles {
         font-family: Nunito Sans;
         font-style: normal;
@@ -833,10 +856,12 @@
         font-size: 20px;
         line-height: 150%;
         /* identical to box height, or 30px */
+
         /* LIght/White */
+
         color: #ffffff;
     }
-    
+
     .footerCenterTitle span {
         font-family: Nunito Sans;
         font-style: normal;
@@ -844,24 +869,26 @@
         font-size: 14px;
         line-height: 150%;
         /* identical to box height, or 30px */
+
         /* Dark/Light Gray */
+
         color: #8b95a0;
     }
-    
+
     .footerCenterBigLinks {
         display: flex;
         flex-direction: column;
         margin-top: 30px;
     }
-    
+
     .footerCenterBottom {
         width: 490px;
     }
-    
+
     .footerCenterBottomMargin {
         margin-left: 30px;
     }
-    
+
     .footerCenterBottomTitle {
         font-family: Nunito Sans;
         font-style: normal;
@@ -869,12 +896,14 @@
         font-size: 20px;
         line-height: 150%;
         /* identical to box height, or 30px */
+
         /* LIght/White */
+
         color: #ffffff;
         margin-top: 160px;
         margin-bottom: 30px;
     }
-    
+
     .footerCenterLinks {
         font-family: Nunito Sans;
         font-style: normal;
@@ -882,15 +911,17 @@
         font-size: 14px;
         line-height: 135%;
         /* identical to box height, or 19px */
+
         /* Dark/Light Gray */
+
         color: #8b95a0;
         margin-top: 20px;
     }
-    
+
     .footerCenterBottomTitleCRM {
         margin-top: 80px;
     }
-    
+
     .MainTitle {
         font-size: 50px;
         line-height: 130%;
@@ -898,40 +929,43 @@
         height: 65px;
         margin-right: 100px;
     }
-    
+
     .MainText p {
         width: 620px;
         height: 259px;
         font-size: 23px;
         line-height: 160%;
     }
-    
+
     .PLUS {
         display: none;
     }
-    
+
     .SwiperNone {
         display: none !important;
     }
-    
+
     .FooterCenterBigDivFooter1 {
         display: none;
     }
-    
+
     .wrap {
         display: none;
     }
-    
+
     @media (max-width:767px) {
+
         footer {
             padding: 60px 15px;
             width: 320px;
             height: 100vh;
             margin-top: 0;
         }
+
         .footer {
             width: 290px !important;
         }
+
         .footerTitle {
             font-size: 36px;
             line-height: 120%;
@@ -939,46 +973,57 @@
             margin-bottom: 30px;
             padding: 0;
         }
+
         .footerTitle2 {
             display: flex;
             font-size: 24px;
             line-height: 130%;
             align-items: center;
         }
+
         .footerTitle2 button {
             margin-left: 20px;
         }
+
         .footerCenter {
             width: 290px;
             height: 190px;
         }
+
         .footerCenterBottom {
             width: inherit;
             height: inherit;
         }
+
         .footerCenterBigTitle {
             font-size: 24px;
             line-height: 130%;
             width: 350px;
             height: 55px;
         }
+
         .footerCenterTitle {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
         }
+
         .footerCenterTitle span {
             margin: 0;
         }
+
         .footerCenterBottom2 {
             display: none;
         }
+
         .FooterCenterBigDiv {
             display: none;
         }
+
         .FooterCenterBigDivFooter1 {
             display: block;
         }
+
         .footerCenterBottomTitleMedia320InternetMarketing {
             font-size: 16px;
             line-height: 150%;
@@ -987,6 +1032,7 @@
             margin: 0;
             margin-top: 60px;
         }
+
         .footerCenterLinks {
             width: 250px;
             height: 38px;
@@ -994,21 +1040,25 @@
             line-height: 135%;
             margin: 10px 0px;
         }
+
         .footerCenterBottomTitleRazrabotkaMedia320 {
             font-size: 16px;
             line-height: 150%;
             width: 157px;
             height: 24px;
         }
+
         .wrap {
             display: block !important;
         }
+
         .footerCenterBottomTitle {
             font-size: 16px;
             line-height: 150%;
             margin: 40px 0;
             margin-bottom: 20px;
         }
+
         /* .footerCenterBigLinks2{
         display: none !important;
       } */
