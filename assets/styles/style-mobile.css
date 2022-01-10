@@ -146,9 +146,6 @@
         height: 212px;
         flex-wrap: inherit;
         justify-content: inherit;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* align-items: flex-start;*/
     }
 
     footer {
@@ -185,8 +182,6 @@
     }
 
     .footerCenterBottom {
-        /* width: 300px;
-        height: 193px; */
         width: 300px;
         height: 173px;
     }
@@ -213,8 +208,6 @@
         height: 19px;
         font-size: 14px;
         line-height: 135%;
-        /* width: 300px; */
-        /* height: 19px;*/
     }
 
     .footerCenterBottomTitleRazrabotka {
@@ -230,9 +223,6 @@
     .footerCenterBottom2 {
         width: 940px;
         height: 173px;
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* align-items: flex-start; */
         margin-top: 200px;
     }
 
@@ -796,10 +786,6 @@
         margin: 40px 0;
         margin-bottom: 20px;
     }
-
-    /* .footerCenterBigLinks2{
-        display: none !important;
-      } */
 }
 
 @media screen and (max-width: 320px) {

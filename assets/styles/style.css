@@ -746,9 +746,60 @@
         display: none;
     }
 
+    .portfolio .taglist {
+        margin-bottom: 100px;
+    }
+
+    .portfolio .right_project {
+        margin-top: 400px;
+    }
+
+    .portfolio .taglist_bottom {
+        margin-bottom: 200px;
+    }
+
+    .portfolio .plus {
+        display: none;
+    }
+
+    .us {
+        color: #8b95a0 !important;
+    }
+
+    .social_bottom {
+        display: none;
+    }
+
     .d-block {
         display: block !important;
     }
+
+    .connections-fixed ul {
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        z-index: 30;
+    }
+
+    .connections-fixed ul li {
+        padding: 20px 0;
+    }
+
+    .connections-fixed ul li a {
+        padding: 15px 17px;
+        background: #f4f8fa;
+        border-radius: 12px;
+        color: #8b95a0;
+        transition: 0.5s;
+        font-size: 15px;
+    }
+
+    .connections-fixed ul li a:hover {
+        background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
+        border-radius: 12px;
+        color: white;
+    }
+
 
     .section-big-maps-logo {
         background: transparent;
