@@ -1,141 +1,74 @@
 @media screen and (max-width: 1559px) {
 
     /* header */
-    header {
-        max-width: 1024px !important;
-        padding-left: 42px !important;
-    }
 
     header nav {
-        max-width: 1024px !important;
-        padding-left: 0px !important;
-        justify-content: start !important;
-    }
-
-    .header-right-bars button {
-        margin-left: 125px !important;
-        position: inherit !important;
-    }
-
-    header nav .header-right-ul ul {
-        display: none !important;
+        max-width: 900px;
+        margin: unset;
     }
 
     header nav .header-right-ul {
-        width: 0 !important;
+        display: none;
     }
 
-    header nav .header-right-ul .header-right-bars button {
-        position: unset !important;
-    }
-
-    .logo {
-        margin-right: 47px !important;
+    header .item-header-bars {
+        display: block !important;
     }
 
     header nav .header-left {
-        margin-right: 84px !important;
-        justify-content: start !important;
-        width: 243px !important;
-    }
-
-    header nav .header-center {
-        width: 413px !important;
-    }
-
-    header nav .header-center .header-number h4 {
-        font-size: 18px !important;
-    }
-
-    header nav .header-center .header-add-btn button {
-        font-size: 18px !important;
-        margin-left: 40px !important;
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        padding: 0px !important;
-        width: 235px !important;
-    }
-
-    header nav .header-center .header-add-btn button svg {
-        margin-left: 20px !important;
-    }
-
-    header nav .header-left .dropdown a {
-        font-size: 18px !important;
+        width: 270px;
     }
 
     header .header-top .header-top-center-top-ul {
-        width: 100% !important;
-    }
-
-    header .header-top .header-top-center-bottom-ul {
-        width: 100% !important;
+        width: 864px;
+        margin-left: 50px;
     }
 
     header .header-top .header-top-center-top-ul li a {
-        font-size: 52px !important;
-        line-height: 120% !important;
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 120%;
+        color: #ffffff;
     }
 
-    header .header-top .header-top-center-top-ul li {
-        padding-right: 0 !important;
-        padding-left: 80px !important;
-    }
-
-    .kon {
-        margin-left: 80px !important;
-    }
-
-    header .header-top .header-top-center-bottom-ul li a {
-        font-size: 22px !important;
-        line-height: 150% !important;
+    header .header-top .header-top-center-bottom-ul {
+        width: 864px;
+        margin-left: 50px;
+        justify-content: space-between;
+        padding-top: 90px;
     }
 
     .connections-fixed {
-        display: none !important;
+        display: none;
     }
 
-    header .header-top {
-        height: auto !important;
+    header .header .header-title {
+        padding-left: 40px;
     }
 
-    .social_bottom {
-        display: flex !important;
-        align-items: center !important;
-        margin-top: 100px !important;
-        margin-bottom: 100px !important;
+    header .elephant-header img {
+        width: 750px;
+        height: 750px;
     }
 
-    .social_bottom p {
-        font-family: Nunito Sans !important;
-        font-style: normal !important;
-        font-weight: 600 !important;
-        font-size: 18px !important;
-        line-height: 150% !important;
-        color: #8b95a0 !important;
-        margin-left: 80px !important;
+    header .header .header-bg {
+        top: 17%;
+        left: 9%;
+        opacity: 0.1;
+        width: 500px;
+        height: 500px;
     }
 
-    .social_bottom ul {
-        display: flex !important;
+    header .header .header-title h3 {
+        width: 1000px;
+        height: 158px;
+        font-weight: 600;
+        font-size: 86px;
+        line-height: 120%;
+        color: #2d3845;
     }
-
-    .social_bottom ul li {
-        width: 44px !important;
-        height: 44px !important;
-        background: #2d3845 !important;
-        border-radius: 12px !important;
-        display: flex !important;
-        align-items: center !important;
-        justify-content: center !important;
-        margin-left: 20px !important;
-    }
-
-    .social_bottom ul li:hover {
-        background: linear-gradient(270deg, #1b558d 0%, #379bad 100%) !important;
-    }
-
 
     .ibi {
         margin-left: 57px;
@@ -235,37 +168,60 @@
 @media screen and (max-width: 989px) {
 
     /* header */
+    header nav .header-left {
+        width: auto;
+    }
+
+    header nav {
+        padding-top: 20px;
+        padding-left: 28px;
+    }
+
+    header nav .header-right-bars button {
+        top: 22px;
+        right: 25px;
+    }
+
+    header .header-top .header-top-left {
+        padding-top: 20px;
+        padding-left: 28px;
+        padding-right: 25px;
+    }
+
+    header nav .header-center {
+        width: auto;
+    }
+
     header nav .header-left .dropdown {
-        display: none !important;
+        display: none;
     }
 
-    .header-add-btn {
-        display: none !important;
+    header nav .header-center .header-add-btn {
+        display: none;
     }
 
-    header nav .header-right-ul .header-right-bars button {
-        position: absolute !important;
+    header .elephant-header {
+        display: none;
     }
 
-    header .header-top .header-top-center-top-ul {
-        flex-direction: column !important;
-        align-items: start !important;
+    header .header .header-title h3 {
+        width: 530px;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 120%;
     }
 
-    header .header-top .header-top-center-top-ul li {
-        padding-left: 100px !important;
+    header .header .header-title h2 {
+        width: 530px;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 130%;
     }
 
-    header .header-top .header-top-center-top-ul li {
-        padding-top: 60px !important;
-    }
-
-    header .header-top {
-        height: auto !important;
-    }
-
-    header .header-top .header-top-center-bottom-ul {
-        display: none !important;
+    header .header .header-title h2 span {
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 130%;
     }
 
     .necessary .necessary-info .necessary-input input,
@@ -476,21 +432,51 @@
 @media screen and (max-width: 767px) {
 
     /* header */
-    header .header-top .header-top-center-top-ul li {
-        padding-left: 30px !important;
+    header {
+        max-width: initial !important;
     }
 
-    header .header-top .header-top-center-top-ul li a {
-        font-size: 30px !important;
-        line-height: 120% !important;
+    .header {
+        margin-left: 0;
+        padding: 0px 15px;
     }
 
-    header .header-top .header-top-left {
-        padding: 20px !important;
+    header nav .header-center {
+        display: none;
     }
 
-    header .header-top .exit {
-        padding: 10px 15px !important;
+    header .header .header-title {
+        padding-left: 20px;
+        padding-top: 100px;
+    }
+
+    .headerTitle {
+        font-size: 24px;
+        line-height: 130%;
+        width: 76px;
+        height: 31px;
+    }
+
+    header .header .header-title h3 {
+        width: auto;
+        height: 132px;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 120%;
+    }
+
+    header .header .header-bg {
+        display: none;
+    }
+
+    header .elephant-header {
+        display: block !important;
+    }
+
+    header .elephant-header img {
+        position: absolute;
+        width: 483px;
+        height: 483px;
     }
 
     .keys {
