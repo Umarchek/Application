@@ -1,14 +1,6 @@
     * {
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: Nunito Sans;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
         font-family: "Nunito Sans", sans-serif;
         list-style: none;
         text-decoration: none;
@@ -20,23 +12,17 @@
     header {
         max-width: 1920px;
         position: relative;
-        background-color: #fff;
+        background-color: #fff !important;
         margin: auto;
-        height: 3vh;
-    }
-
-    .headerNav {
-        position: absolute;
     }
 
     header nav {
         max-width: 1920px;
-        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-left: 50px;
-        padding-top: 45px;
+        padding-top: 42px;
         margin: auto;
         position: relative;
         z-index: 5;
@@ -69,13 +55,12 @@
     }
 
     header nav .header-left .dropdown .dropdown-item {
-        box-sizing: content-box;
         position: absolute;
         width: 200px;
         top: -60px;
         left: -60px;
         background-color: rgb(255, 255, 255);
-        padding: 60px 30px 40px 60px;
+        padding: 60px;
         border-radius: 12px;
         display: none;
     }
@@ -141,13 +126,6 @@
         font-size: 20px;
         line-height: 150%;
         color: #8b95a0;
-        transition: all 0.3s;
-    }
-
-    header nav .dropdown-item-ul ul li a:hover {
-        background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
     header nav .header-right-ul .header-right-bars button {
@@ -167,6 +145,15 @@
         position: relative;
     }
 
+    header nav .header-center .header-add-btn button {
+        display: flex;
+        align-items: center;
+    }
+
+    header nav .header-center .header-add-btn button svg {
+        margin-left: 20px;
+    }
+
     header nav .dropdown-item-ul {
         width: 400px;
         position: absolute;
@@ -176,9 +163,7 @@
         display: none;
         background-color: white;
         border-radius: 12px;
-        box-shadow: 0px 0px 1px 0px rgb(150, 150, 150);
-        opacity: 0;
-        transition: opacity 0.5s;
+        box-shadow: 10px 10px 57px 1px rgb(100, 100, 100);
     }
 
     header nav .dropdown-item-ul ul {
@@ -196,8 +181,8 @@
     header .header-top {
         width: 100%;
         height: 100vh;
-        position: fixed;
-        top: -130vh;
+        position: absolute;
+        top: -200vh;
         left: 0;
         background-color: #0f0e10;
         transition: 1s;
@@ -363,15 +348,13 @@
     }
 
     header .header .header-title {
-        max-width: 1250px;
-        margin: auto;
-        padding-top: 305px;
+        padding-left: 325px;
+        padding-top: 230px;
         position: relative;
-        z-index: 4;
+        z-index: 2;
     }
 
     header .header .header-title h3 {
-        font-style: normal;
         font-weight: 600;
         font-size: 102px;
         line-height: 120%;
@@ -379,13 +362,55 @@
     }
 
     header .header .header-title h2 {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 130%;
+        color: #2d3845;
+        padding-top: 40px;
+    }
+
+    header .header .header-title h2 span {
         background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-style: normal;
         font-weight: 600;
-        font-size: 102px;
-        line-height: 120%;
+        font-size: 50px;
+        line-height: 130%;
+    }
+
+    .connections-fixed ul {
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        z-index: 30;
+    }
+
+    .connections-fixed ul li {
+        padding: 20px 0;
+    }
+
+    .connections-fixed ul li a {
+        padding: 15px 17px;
+        background: #f4f8fa;
+        border-radius: 12px;
+        color: #8b95a0;
+        transition: 0.5s;
+        font-size: 15px;
+    }
+
+    .connections-fixed ul li a:hover {
+        background: linear-gradient(270deg, #1b558d 0%, #379bad 100%);
+        border-radius: 12px;
+        color: white;
+    }
+
+    header .elephant-header img {
+        position: fixed;
+        right: 0;
+        bottom: 0;
     }
 
 

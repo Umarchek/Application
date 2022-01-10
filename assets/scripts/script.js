@@ -28,7 +28,7 @@ window.addEventListener("load", function (e) {
         });
         $(".header-top .exit").click(function (e) {
             $("header .header-top").css({
-                top: "-130vh",
+                top: "-200vh",
             });
         });
     };
